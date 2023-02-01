@@ -12,6 +12,7 @@
 - **SLO** - Service Level Objective (part of SLA)
 
 ### Performance
+- **Processing Speed** - frequency of electrical cycles per second, measured in Hz (Hertz)
 - **System performance Objectives:**
     - **Minimize Request-Response Latency**
     - **Maximize Throughput**
