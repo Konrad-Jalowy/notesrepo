@@ -18,3 +18,4 @@
 or some service if necessary) and provides content for the client.
 - **Apache webeserver disk requirements** - As a general rule, each page fetched requires around 10k of disk overall (for the page cache, its text, the index, db entries, etc.). 
 - **Nginx webserver** - based on Event-Driven Async IO Model, all conections have the same thread, that does not leave CPU (which is great for its speed) and if necessary, this thread makes Asynchronous IO Requests
+- **Nginx and Apache** - you can combine nginx and apache. Nginx as reverse proxy (load balancer and cache) for apache web servers between them and the client and nginx as reverse proxy (load balancing and cache) between apache web servers and some backend rest api apache accesses.
