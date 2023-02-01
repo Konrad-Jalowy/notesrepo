@@ -21,6 +21,7 @@
 ## Laravel imports
 ### Important imports
 - **use Illuminate\Http\Request;** - request
+- **use Illuminate\Support\Facades\Validator;** - validator
 ### Migration and DB imports
  - **use Illuminate\Support\Facades\Schema;** - Schema class. Has methods create (takes table name and callback taking blueprint) and it has method dropIfExists. Both static, of course...
  - **use Illuminate\Database\Schema\Blueprint;** - this is the Blueprint class injected to callback to Schema::create. Example 
