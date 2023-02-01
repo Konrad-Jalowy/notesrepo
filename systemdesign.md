@@ -5,6 +5,7 @@
 - **Reverse Proxy** - proxy acting on behalf of the server
 - **Latency** - how much time it takes to execute an operation
 - **Throughput** - how many operations you can make per time unit
+- **Throughput (system design aside)** - aside from system design, throughput is also measurment of speed of data transfer from one device to the other, measured in bps (bits per second)
 - **Nines** - what availability you get
 - **High Availability** - I believe 5 nines or more (5 nines - 99.999% uptime - 5.17 minutes of downtime per year)
 - **SLA** - Service Level Agreement
