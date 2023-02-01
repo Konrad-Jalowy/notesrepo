@@ -14,6 +14,9 @@
 - **System performance Objectives:**
     - **Minimize Request-Response Latency**
     - **Maximize Throughput**
+- **Latency depends on:**
+    - **Wait/Idle time**
+    - **Processing time**
 - **Throughput depends on:**
     - **Latency**
     - **Capacity**
