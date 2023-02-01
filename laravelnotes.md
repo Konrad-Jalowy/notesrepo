@@ -14,6 +14,7 @@
 - **php artisan make:model YourModelName -c -m** - create model with migration and controller
 - **php artisan make:model YourModelName -a** - create model, migration, seeder, factory and resource controller
 - **php artisan make:model Task -mfs** - create model with migration, factory and seeder
+- **php artisan db:seed --class=TaskSeeder** - run seeder
 
 ## Laravel imports
 ### Migration and DB imports
