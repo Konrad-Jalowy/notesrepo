@@ -10,6 +10,11 @@
 - **SLA** - Service Level Agreement
 - **SLO** - Service Level Objective (part of SLA)
 
+### Performance
+- **System performance Objectives:**
+    - **Minimize Request-Response Latency**
+    - **Maximize Throughput**
+
 ### Tech Stack
 - **Apache Webserver** - not very good as reverse proxy
 - **Nginx** - good and often used as reverse proxy
