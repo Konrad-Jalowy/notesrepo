@@ -15,8 +15,12 @@
 - **php artisan make:model YourModelName -a** - create model, migration, seeder, factory and resource controller
 - **php artisan make:model Task -mfs** - create model with migration, factory and seeder
 - **php artisan db:seed --class=TaskSeeder** - run seeder
+- **php artisan make:controller HomeController --invokable** - create invokable controller 
+- **php artisan make:controller TaskController** - create standard controller
 
 ## Laravel imports
+### Important imports
+- **use Illuminate\Http\Request;** - request
 ### Migration and DB imports
  - **use Illuminate\Support\Facades\Schema;** - Schema class. Has methods create (takes table name and callback taking blueprint) and it has method dropIfExists. Both static, of course...
  - **use Illuminate\Database\Schema\Blueprint;** - this is the Blueprint class injected to callback to Schema::create. Example 
