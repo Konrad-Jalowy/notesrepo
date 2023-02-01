@@ -13,3 +13,4 @@
 - **php artisan migrate:fresh --seed** - drop all tables in DB, migrate and use all seeders
 - **php artisan make:model YourModelName -c -m** - create model with migration and controller
 - **php artisan make:model YourModelName -a** - create model, migration, seeder, factory and resource controller
+- **php artisan make:model Task -mfs** - create model with migration, factory and seeder
