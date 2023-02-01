@@ -14,6 +14,10 @@
 - **System performance Objectives:**
     - **Minimize Request-Response Latency**
     - **Maximize Throughput**
+- **Throughput depends on:**
+    - **Latency**
+    - **Capacity**
+
 
 ### Tech Stack
 - **Apache Webserver** - not very good as reverse proxy
