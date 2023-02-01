@@ -1,15 +1,15 @@
 ## Create Laravel Bootsrap project:
 
-> composer create-project --prefer-dist laravel/laravel:^9.0 laravel9-bootstrap5-vite
-**create laravel bootstrap project**
-> php artisan serve
-**run the app**
-> composer require laravel/ui
-**install laravel ui**
-> php artisan ui bootstrap
-**create bootstrap scaffolding**
-> php artisan ui bootstrap --auth
-**create bootstrap scaffolding with auth**
+composer create-project --prefer-dist laravel/laravel:^9.0 laravel9-bootstrap5-vite </br>
+**create laravel bootstrap project** </br>
+php artisan serve </br>
+**run the app** </br>
+composer require laravel/ui </br>
+**install laravel ui** </br>
+php artisan ui bootstrap
+**create bootstrap scaffolding** </br>
+php artisan ui bootstrap --auth </br>
+**create bootstrap scaffolding with auth** </br>
 ### package.json for project:
 <pre>
 {
@@ -68,5 +68,5 @@ import '../sass/app.scss'
 @vite(['resources/js/app.js']) 
 </pre>
 
-> npm run build
+npm run build </br>
 **run vite**
