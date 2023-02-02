@@ -46,3 +46,16 @@ return (
     </>
   ); 
 ```
+- **props** - JS object that is passed to a component. Contains key-value pairs passed as an attribute in JSX
+```html 
+<MyComponent msg="hello" num="123"/>
+```
+```html
+function MyComponent(props){
+  return (
+    <>
+  <p>{props.msg}</p>
+  <p>{props.num}</p>
+  </>
+  )
+}```
