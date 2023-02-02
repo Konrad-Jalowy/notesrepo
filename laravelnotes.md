@@ -58,3 +58,7 @@ class TaskFactory extends Factory
 - **Nowadays migrations in Laravel are anonymous classes** - return new class extends migration { (...) } is something you see after creating migration
 - **$table->id();**  - thats how you create primary key in laravel (inside callback to Schema::create inside function up). simple.
 - **Schema::dropIfExists('tasks');** - this drops table if such exists. hmmm. might prove useful in some other areas (like custom artisan commands)
+
+## Larvel packages
+- **composer require guzzlehttp/guzzle** - guzzle http client
+- **composer require laravel/ui** - laravel ui package
