@@ -10,6 +10,7 @@
 - **High Availability** - I believe 5 nines or more (5 nines - 99.999% uptime - 5.17 minutes of downtime per year)
 - **SLA** - Service Level Agreement
 - **SLO** - Service Level Objective (part of SLA)
+- **Host** - physical or virtual machine that runs processes
 
 ### Performance
 - **Processing Speed** - frequency of electrical cycles per second, measured in Hz (Hertz)
