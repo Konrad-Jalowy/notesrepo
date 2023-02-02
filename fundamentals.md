@@ -27,3 +27,4 @@
 ### Graphic device
 - **VGA** - Video Graphics Array, D-shaped, really hard to not recognize, 15 pins numbered from right up corner to left down corner in 3 rows 
 - **HDMI** - High-Definition Multimedia Interface, D-shaped, 19 pins in two rows, first row - odd numbers from 1 to 19 from right to left, second row even numbers from 2 to 18 right to left
+- **DVI** - Digital Visual Interface, not very popular nowadays
