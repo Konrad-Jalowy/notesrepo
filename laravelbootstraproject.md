@@ -76,6 +76,7 @@ import '../sass/app.scss'
 ```php
 @vite(['resources/js/app.js']) 
 ```
-
-npm run build </br>
+```sh
+npm run build
+```
 **run vite**
