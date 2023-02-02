@@ -34,7 +34,7 @@
 - **Interpolation in JSX - single brackets {}**
 <pre><p>Licznik: {number}</p></pre>
 - **JSX having multiple elements must always be encapsulated in single React Fragment <> </>**
-<code>
+```html
 return (
     <>
     <p>Licznik: {number}</p>
@@ -43,4 +43,4 @@ return (
     <button onClick={() => handleCounter('dec')}>Decrement</button>
     </>
   ); 
-</code>
+```
