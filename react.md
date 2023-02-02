@@ -1,4 +1,13 @@
 ## React Notes
+
+## Essentials
+- **React** - JS library for building UIs
+- **React characteristics:**
+  - **Declarative**
+  - **Component-based**
+  - **Unidirectional data flow**
+- **Component** - reusable piece of UI, nowadays you use functional components in React that return JSX
+- **JSX** - JSXML, React markup language
 ### Commands
 - **npx create-react-app my-app** - create directory my-app inside current working directory and create react skeleton app there
 - **npx create-react-app .** - create react skeleton app in current working directory
