@@ -9,3 +9,5 @@
 - CTRL+SHIFT+X: vscode extensions
 - CTRL+SHIFT+E: explorer (come back from extensions for example)
 - F11: fullscreen mode
+- Win + Up Arrow: Maximize
+- Win + Down Arrow: Un-maximize (default window view)
