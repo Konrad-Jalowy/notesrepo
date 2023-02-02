@@ -1,15 +1,24 @@
 ## Create Laravel Bootsrap project:
-
-composer create-project --prefer-dist laravel/laravel:^9.0 laravel9-bootstrap5-vite </br>
-**create laravel bootstrap project** </br>
-php artisan serve </br>
-**run the app** </br>
-composer require laravel/ui </br>
-**install laravel ui** </br>
+```sh
+composer create-project --prefer-dist laravel/laravel:^9.0 laravel9-bootstrap5-vite
+```
+**create laravel bootstrap project** 
+```sh
+php artisan serve
+``` 
+**run the app**
+```sh 
+composer require laravel/ui
+```
+**install laravel ui**
+```sh
 php artisan ui bootstrap
-**create bootstrap scaffolding** </br>
-php artisan ui bootstrap --auth </br>
-**create bootstrap scaffolding with auth** </br>
+```
+**create bootstrap scaffolding**
+```sh
+php artisan ui bootstrap --auth
+```
+**create bootstrap scaffolding with auth**
 ### package.json for project:
 ```json
 {
