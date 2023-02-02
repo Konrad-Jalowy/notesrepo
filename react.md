@@ -50,6 +50,7 @@ return (
 ```html 
 <MyComponent msg="hello" num="123"/>
 ```
+
 ```html
 function MyComponent(props){
   return (
@@ -58,4 +59,6 @@ function MyComponent(props){
   <p>{props.num}</p>
   </>
   )
-}```
+}
+```
+
