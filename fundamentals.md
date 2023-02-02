@@ -18,3 +18,8 @@
 ### Cables
 - **RJ-11** - telephone cable
 - **RJ-45** - ethernet cable
+### Connectors 
+- **USB** - universal serial bus
+- **Thunderbolt** - usually on Mac
+- **Bluetooth** - self-descriptive
+- **RF** - radio frequency connector (remote control for example)
