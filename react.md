@@ -27,18 +27,18 @@
 
 ### Typescript
 - **TS useState hook with numeric state**
-```html 
+```tsx 
 const [number , setNumber] = useState<number>(0);
 ```
 
 
 ### JSX
 - **Interpolation in JSX - single brackets {}**
-```html
+```jsx
 <p>Licznik: {number}</p>
 ```
 - **JSX having multiple elements must always be encapsulated in single React Fragment <> </>**
-```html
+```jsx
 return (
     <>
     <p>Licznik: {number}</p>
@@ -49,11 +49,11 @@ return (
   ); 
 ```
 - **props** - JS object that is passed to a component. Contains key-value pairs passed as an attribute in JSX
-```html 
+```jsx 
 <MyComponent msg="hello" num="123"/>
 ```
 
-```html
+```jsx
 function MyComponent(props){
   return (
     <>
@@ -64,7 +64,7 @@ function MyComponent(props){
 }
 ```
 - **Destructuring props** - good for code readability
-```html 
+```jsx 
 function MyComponent({msg, num}){
   return (
     <>
