@@ -32,7 +32,8 @@
 
 ### JSX
 - **Interpolation in JSX - single brackets {}**
-<pre><p>Licznik: {number}</p></pre>
+```html
+<p>Licznik: {number}</p></pre>```
 - **JSX having multiple elements must always be encapsulated in single React Fragment <> </>**
 ```html
 return (
