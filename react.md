@@ -61,4 +61,16 @@ function MyComponent(props){
   )
 }
 ```
+- **Destructuring props** - good for code readability
+```html 
+function MyComponent({msg, num}){
+  return (
+    <>
+  <p>{props.msg}</p>
+  <p>{props.num}</p>
+  </>
+  )
+}
+```
+
 
