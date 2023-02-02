@@ -23,3 +23,4 @@
 - **Thunderbolt** - usually on Mac
 - **Bluetooth** - self-descriptive
 - **RF** - radio frequency connector (remote control for example)
+- **Firewire** - usually for external hard drives
