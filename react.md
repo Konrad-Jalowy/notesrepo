@@ -12,4 +12,5 @@
     "eject": "react-scripts eject"
   },
 </pre>
-- **npx create-react-app my-app --template typescript** - create typescript project
+- **npx create-react-app my-app --template typescript** - create typescript react project
+- **npx create-react-app . --template typescript** - typescript react project in current directory
