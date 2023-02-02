@@ -29,4 +29,6 @@
 - **HDMI** - High-Definition Multimedia Interface, D-shaped, 19 pins in two rows, first row - odd numbers from 1 to 19 from right to left, second row even numbers from 2 to 18 right to left
 - **DVI** - Digital Visual Interface, not very popular nowadays
 ### Other devices
-- **PS/2** - Connector used for keyboard and mouse back in the day. Nowadays replaced by USB
+- **PS/2** - Connector used for keyboard and mouse back in the day. Nowadays replaced by US
+    - **Interesting note found on the internet**
+        - ***PS2 ports are still on motherboards because they offer better connectivity and lower latency.***
