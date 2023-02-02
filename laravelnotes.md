@@ -25,18 +25,20 @@
 ### Migration and DB imports
  - **use Illuminate\Support\Facades\Schema;** - Schema class. Has methods create (takes table name and callback taking blueprint) and it has method dropIfExists. Both static, of course...
  - **use Illuminate\Database\Schema\Blueprint;** - this is the Blueprint class injected to callback to Schema::create. Example 
- <pre>public function up()
+ ```php 
+ public function up()
     {
         Schema::create('tasks', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
         });
-    } </pre>
+    }
+```
 - **use Illuminate\Database\Migrations\Migration;** - this is used to return new class extends Migration (whole anonymous class that 
 has 2 public void methods - up and down: thats how Laravel migrations look like)
 - **use Illuminate\Database\Eloquent\Factories\Factory;** - Factory class. Has public method definition in which you specify what 
 you expect factory to do each time its run. Example factory class:
-<pre>
+```php
 class TaskFactory extends Factory
 {
     /**
@@ -51,7 +53,7 @@ class TaskFactory extends Factory
         ];
     }
 }
-</pre>
+```
 ### String helpers
 - **use Illuminate\Support\Str;** - nice tool. For example: ***Str::random(10)*** gives random 10-char string.
 ## Varia
@@ -65,11 +67,11 @@ class TaskFactory extends Factory
 
 ## Laravel controllers
 - **Invokable single action controller using external API and passing the context to view**
-<pre> 
+```php 
 public function __invoke(Request $request)
     {
         $response = Http::get('https://dummyjson.com/products/categories');
         $categories = $response->json();
         return view('welcome', compact('categories'));
     }
-</pre>
+```
