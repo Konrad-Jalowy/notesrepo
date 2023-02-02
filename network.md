@@ -9,3 +9,4 @@
 - **WLAN** - Wireless LAN
 - **SAN** - Storage Area Network
 - **SoHo** - Small Office, Home Office
+- **PoE** - Power over Ethernet
