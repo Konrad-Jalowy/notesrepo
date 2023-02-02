@@ -62,3 +62,14 @@ class TaskFactory extends Factory
 ## Larvel packages
 - **composer require guzzlehttp/guzzle** - guzzle http client
 - **composer require laravel/ui** - laravel ui package
+
+## Laravel controllers
+- **Invokable single action controller using external API and passing the context to view**
+<pre> 
+public function __invoke(Request $request)
+    {
+        $response = Http::get('https://dummyjson.com/products/categories');
+        $categories = $response->json();
+        return view('welcome', compact('categories'));
+    }
+</pre>
