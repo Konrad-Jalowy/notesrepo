@@ -30,5 +30,5 @@
 - **DVI** - Digital Visual Interface, not very popular nowadays
 ### Other devices
 - **PS/2** - Connector used for keyboard and mouse back in the day. Nowadays replaced by US
-    - **Interesting note found on the internet**
-        - ***PS2 ports are still on motherboards because they offer better connectivity and lower latency.***
+    - ***PS2 ports are still on motherboards because they offer better connectivity and lower latency.***
+    
