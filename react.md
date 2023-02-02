@@ -35,7 +35,7 @@ const [number , setNumber] = useState<number>(0);
 ### JSX
 - **Interpolation in JSX - single brackets {}**
 ```html
-<p>Licznik: {number}</p></pre>
+<p>Licznik: {number}</p>
 ```
 - **JSX having multiple elements must always be encapsulated in single React Fragment <> </>**
 ```html
