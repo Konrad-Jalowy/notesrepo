@@ -11,6 +11,9 @@
 - **SLA** - Service Level Agreement
 - **SLO** - Service Level Objective (part of SLA)
 - **Host** - physical or virtual machine that runs processes
+- **Redundancy (in system design)** - process of replicating parts of the system in order to make it more reliable
+- **Redundancy (in programming)** - usually something to avoid, violates DRY principle, having repeted code that can be and should 
+be refactored, abstracted away to some function or something like that
 
 ### Performance
 - **Processing Speed** - frequency of electrical cycles per second, measured in Hz (Hertz)
