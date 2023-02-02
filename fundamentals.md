@@ -14,3 +14,7 @@
 - **Patent** - can protect some invention. For example, PC could be patented.
 - **Copyright** - protects some intelectual property. For example, a software or a book about programming can be protected by copyright.
 - **Trademark** - a logo of your website can be protected by a trademark.
+## Infrastructure
+### Cables
+- **RJ-11** - telephone cable
+- **RJ-45** - ethernet cable
