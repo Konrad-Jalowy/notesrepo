@@ -8,3 +8,4 @@
 - ALT+Z: word wrap
 - CTRL+SHIFT+X: vscode extensions
 - CTRL+SHIFT+E: explorer (come back from extensions for example)
+- F11: fullscreen mode
