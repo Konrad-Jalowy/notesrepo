@@ -10,6 +10,7 @@
 - **SAN** - Storage Area Network
 - **SoHo** - Small Office, Home Office
 - **PoE** - Power over Ethernet
+- **NFC** - Near field communication - 1.5 in (4 cm)
 - #### IP basics
     - **Private IP** - Your IP inside your network
     - **Subnet Mask** - Tells you which part of your IP is network part and host part
