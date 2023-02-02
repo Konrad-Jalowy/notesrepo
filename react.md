@@ -27,7 +27,9 @@
 
 ### Typescript
 - **TS useState hook with numeric state**
-<pre> const [number , setNumber] = useState<number>(0); </pre>
+```html 
+const [number , setNumber] = useState<number>(0);
+```
 
 
 ### JSX
