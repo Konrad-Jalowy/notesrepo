@@ -10,3 +10,7 @@
 - **SAN** - Storage Area Network
 - **SoHo** - Small Office, Home Office
 - **PoE** - Power over Ethernet
+
+### Cables
+- **RJ-11** - telephone cable
+- **RJ-45** - ethernet cable
