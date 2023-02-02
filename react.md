@@ -8,6 +8,9 @@
   - **Unidirectional data flow**
 - **Component** - reusable piece of UI, nowadays you use functional components in React that return JSX
 - **JSX** - JSXML, React markup language
+- **Synthetic Event** - best analogy is to compare it to jQuery-selected object vs JS-query-selected object. Some kind of 
+React wrapper on the events (I think...). Anyways, thats the type passed to event handler functions in React. They say those events
+have more consistency over different browsers.
 ### Commands
 - **npx create-react-app my-app** - create directory my-app inside current working directory and create react skeleton app there
 - **npx create-react-app .** - create react skeleton app in current working directory
