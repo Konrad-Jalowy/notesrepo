@@ -10,6 +10,11 @@
 - **SAN** - Storage Area Network
 - **SoHo** - Small Office, Home Office
 - **PoE** - Power over Ethernet
+- #### IP basics
+    - **Private IP** - Your IP inside your network
+    - **Subnet Mask** - Tells you which part of your IP is network part and host part
+    - **Default gateway** - Tells you if devices are inside your network or not
+    - **Public IP** - Your IP visible when you connect to the internet
 
 ### Cables
 - **RJ-11** - telephone cable
