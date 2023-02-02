@@ -66,8 +66,8 @@ function MyComponent(props){
 function MyComponent({msg, num}){
   return (
     <>
-  <p>{props.msg}</p>
-  <p>{props.num}</p>
+  <p>{msg}</p>
+  <p>{num}</p>
   </>
   )
 }
