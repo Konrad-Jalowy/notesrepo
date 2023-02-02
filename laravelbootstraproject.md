@@ -11,7 +11,7 @@ php artisan ui bootstrap
 php artisan ui bootstrap --auth </br>
 **create bootstrap scaffolding with auth** </br>
 ### package.json for project:
-<pre>
+```json
 {
     "private": true,
     "scripts": {
@@ -36,9 +36,9 @@ php artisan ui bootstrap --auth </br>
         "vite": "^4.0.0"
     }
 }
-</pre>
+```
 ### vite.config.js for project:
-<pre>
+```js
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 import path from 'path'
@@ -55,18 +55,18 @@ export default defineConfig({
         }
     },
 });
- </pre>
+ ```
  ### resources/js/app.js for project:
- <pre>
+ ```js
  import './bootstrap';
 
 import '../sass/app.scss'
-  </pre>
+```
 
 ### welcome.blade.php for vite:
-<pre>
+```php
 @vite(['resources/js/app.js']) 
-</pre>
+```
 
 npm run build </br>
 **run vite**
