@@ -14,3 +14,24 @@
 </pre>
 - **npx create-react-app my-app --template typescript** - create typescript react project
 - **npx create-react-app . --template typescript** - typescript react project in current directory
+
+
+### Typescript
+- **TS useState hook with numeric state**
+<pre> const [number , setNumber] = useState<number>(0); </pre>
+
+
+### JSX
+- **Interpolation in JSX - single brackets {}**
+<pre><p>Licznik: {number}</p></pre>
+- **JSX having multiple elements must always be encapsulated in single React Fragment <> </>**
+<pre>
+return (
+    <>
+    <p>Licznik: {number}</p>
+    <button onClick={() => handleCounter('inc')}>Increment</button>
+    <p></p>
+    <button onClick={() => handleCounter('dec')}>Decrement</button>
+    </>
+  ); 
+</pre>
