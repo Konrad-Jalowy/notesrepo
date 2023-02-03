@@ -15,3 +15,4 @@
 - CTRL + r: switch between workspaces
 - CTRL + g: go to line number...
 - CTRL + j: unlike CTRL+`, this can both open and close terminal. Both commands can also focus terminal if opened not focused
+- CTRL + p: go to file
