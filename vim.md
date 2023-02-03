@@ -42,3 +42,4 @@
 - **x** - delete current letter
 - **i** - go to insert mode
 - **a** - go to append mode
+- **cc** - delete current line and go to insert mode there
