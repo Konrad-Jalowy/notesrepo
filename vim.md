@@ -40,3 +40,5 @@
 - **dd** - clear current line
 - **u** - undo changes
 - **x** - delete current letter
+- **i** - go to insert mode
+- **a** - go to append mode
