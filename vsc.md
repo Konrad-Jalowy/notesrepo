@@ -12,3 +12,4 @@
 - Win + Up Arrow: Maximize
 - Win + Down Arrow: Un-maximize (default window view)
 - Win + 1: open VSC (if its the first icon on the taskbar)
+- CTRL + r: switch between workspaces
