@@ -4,3 +4,7 @@
 ```sh
 :help
 ```
+- **quit - vim, help etc:**
+```sh
+:q
+```
