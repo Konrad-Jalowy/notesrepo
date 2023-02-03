@@ -36,3 +36,4 @@
 - **h** - cursor letter left
 - **l** - curspr letter right
 - **Shift + O** - add new line above and go to insert mode
+- **o** - add new line below and go to insert mode
