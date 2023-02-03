@@ -11,6 +11,8 @@
 - **Synthetic Event** - best analogy is to compare it to jQuery-selected object vs JS-query-selected object. Some kind of 
 React wrapper on the events (I think...). Anyways, thats the type passed to event handler functions in React. They say those events
 have more consistency over different browsers.
+- **Props** - object that contains key-value pairs from custom attributes of the components and props.children - children of the component
+- **State** - data specific to component instance that persists between the renders.
 ### Commands
 ```sh
 npx create-react-app my-app
