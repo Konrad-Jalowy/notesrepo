@@ -14,7 +14,7 @@
 - Win + 1: open VSC (if its the first icon on the taskbar)
 - CTRL + r: switch between workspaces
 - CTRL + g: go to line number...
-- CTRL + j: unlike CTRL+~, this can both open and close terminal. CTRL+~ can focus unfocused yet open terminal.
+- CTRL + j: unlike CTRL+\~, this can both open and close terminal. CTRL+\~ can focus unfocused yet open terminal.
 - CTRL + p: go to file
 ## VSC shortcuts for text editing:
 - CTRL+l: select current line
