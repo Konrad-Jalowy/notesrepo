@@ -92,5 +92,23 @@ function MyComponent({msg, num}){
   )
 }
 ```
+- **Passing children to component** - accessible in props.children. Example of simple wrapper component
+```jsx
+function Parent(props){
+    return (
+    <>
+    {props.children}
+    </>
+    );
+}
+```
+- **Exporting component** - use export {ComponentName}. Example:
+```jsx
+export {Parent};
+```
+- **Importing component** - use import { ComponentName } from 'path'. Example:
+```jsx
+import {Parent} from './Parent';
+```
 
 
