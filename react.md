@@ -12,11 +12,19 @@
 React wrapper on the events (I think...). Anyways, thats the type passed to event handler functions in React. They say those events
 have more consistency over different browsers.
 ### Commands
-- **npx create-react-app my-app** - create directory my-app inside current working directory and create react skeleton app there
-- ```sh 
-**npx create-react-app .**``` - create react skeleton app in current working directory
-- **npm start** - start react app (runs react-scripts start)
-- **react scripts - content of package.json**:
+```sh
+npx create-react-app my-app
+```
+**create directory my-app inside current working directory and create react skeleton app there**
+```sh
+npx create-react-app .
+```
+**create react skeleton app in current working directory**
+```sh
+npm start
+```
+**start react app (runs react-scripts start)**
+**react scripts - content of package.json**:
 ```json
     "scripts": {
     "start": "react-scripts start",
