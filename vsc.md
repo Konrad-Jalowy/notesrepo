@@ -18,3 +18,5 @@
 - CTRL + p: go to file
 ## VSC shortcuts for text editing:
 - CTRL+l: select current line
+- CTRL+Home: go to beginnig of the file
+- CTRL+End: go to end of the file
