@@ -33,8 +33,14 @@ npm start
     "eject": "react-scripts eject"
   },
 ```
-- **npx create-react-app my-app --template typescript** - create typescript react project
-- **npx create-react-app . --template typescript** - typescript react project in current directory
+**create typescript react project:**
+```sh
+npx create-react-app my-app --template typescript
+```
+**typescript react project in current directory:**
+```sh
+npx create-react-app . --template typescript
+```
 
 
 ### Typescript
