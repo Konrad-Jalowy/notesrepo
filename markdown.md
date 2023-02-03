@@ -15,4 +15,11 @@
 ```md
 # Space after hash always
 ```
+**embedding code**
+```md
+```sh
+echo "Remember about newlines before and after your code"
+```
+```
+
 
