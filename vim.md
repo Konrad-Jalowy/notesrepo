@@ -39,3 +39,4 @@
 - **o** - add new line below and go to insert mode
 - **dd** - clear current line
 - **u** - undo changes
+- **x** - delete current letter
