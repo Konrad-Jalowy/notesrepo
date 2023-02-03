@@ -37,3 +37,5 @@
 - **l** - curspr letter right
 - **Shift + O** - add new line above and go to insert mode
 - **o** - add new line below and go to insert mode
+- **dd** - clear current line
+- **u** - undo changes
