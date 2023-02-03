@@ -12,3 +12,7 @@
 ```sh
 :q!
 ```
+- **execute pwd command (or any command):**
+```sh
+:!pwd
+```
