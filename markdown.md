@@ -11,4 +11,8 @@
 ```md
 ~crossed out text here~
 ```
+**headers from 1 to 6**
+```md
+# Space after hash always
+```
 
