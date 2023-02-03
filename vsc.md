@@ -14,3 +14,4 @@
 - Win + 1: open VSC (if its the first icon on the taskbar)
 - CTRL + r: switch between workspaces
 - CTRL + g: go to line number...
+- CTRL + j: unlike CTRL+`, this can both open and close terminal. Both commands can also focus terminal if opened not focused
