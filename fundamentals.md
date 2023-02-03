@@ -31,4 +31,5 @@
 ### Other devices
 - **PS/2** - Connector used for keyboard and mouse back in the day. Nowadays replaced by US
     - ***PS2 ports are still on motherboards because they offer better connectivity and lower latency.***
-    
+### Drivers
+- **Driver** - a software component that lets the operating system and a device communicate with each other.
