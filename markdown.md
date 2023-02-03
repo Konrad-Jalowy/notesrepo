@@ -18,8 +18,25 @@
 **embedding code**
 ```md
 ```sh
-echo "Remember about newlines before and after your code"
-\\```
+echo "Remember about newlines before and after your code + theres no slash"
+\```
 ```
+**unordered list:**
+```md
+## Im h2. Available types of code:
+- Remember about the space btw!
+- html
+- json
+- md
+- js
+- jsx
+- ts
+- tsx 
+- php
+- sh
+- other languages and formats - google it if you need!
+```
+
+
 
 
