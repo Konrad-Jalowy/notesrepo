@@ -22,3 +22,4 @@
 - CTRL+l: select current line
 - CTRL+Home: go to beginnig of the file
 - CTRL+End: go to end of the file
+- CTRL + / - comment selected
