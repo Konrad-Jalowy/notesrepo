@@ -8,3 +8,7 @@
 ```sh
 :q
 ```
+- **ignore changes and quit:**
+```sh
+:q!
+```
