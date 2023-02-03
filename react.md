@@ -13,7 +13,8 @@ React wrapper on the events (I think...). Anyways, thats the type passed to even
 have more consistency over different browsers.
 ### Commands
 - **npx create-react-app my-app** - create directory my-app inside current working directory and create react skeleton app there
-- **npx create-react-app .** - create react skeleton app in current working directory
+- ```sh 
+**npx create-react-app .**``` - create react skeleton app in current working directory
 - **npm start** - start react app (runs react-scripts start)
 - **react scripts - content of package.json**:
 ```json
