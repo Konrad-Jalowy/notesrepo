@@ -12,7 +12,19 @@
 ```sh
 :q!
 ```
-- **execute pwd command (or any command):**
+- **execute pwd command:**
 ```sh
-:!pwd
+:pwd
+```
+- **change working directory:**
+```sh
+:cd C:\vimfiles
+```
+- **save unsaved file in current directory:**
+```sh
+:w nowy.txt
+```
+- **save and quit:**
+```sh
+:wq
 ```
