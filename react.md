@@ -13,6 +13,7 @@ React wrapper on the events (I think...). Anyways, thats the type passed to even
 have more consistency over different browsers.
 - **Props** - object that contains key-value pairs from custom attributes of the components and props.children - children of the component
 - **State** - data specific to component instance that persists between the renders.
+- **Hook** - function that starts with 'use', allows create stateful components, cannot be called conditionally
 ### Commands
 ```sh
 npx create-react-app my-app
