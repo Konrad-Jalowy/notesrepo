@@ -35,4 +35,4 @@
 - **k** - cursor line up
 - **h** - cursor letter left
 - **l** - curspr letter right
-- **CTRL + O** - add new line above and go to insert mode
+- **Shift + O** - add new line above and go to insert mode
