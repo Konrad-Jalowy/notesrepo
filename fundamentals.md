@@ -33,3 +33,4 @@
     - ***PS2 ports are still on motherboards because they offer better connectivity and lower latency.***
 ### Drivers
 - **Driver** - a software component that lets the operating system and a device communicate with each other.
+- **Device manager (menedżer urządzeń)** - a component of the Microsoft Windows operating system. It allows users to view and control the hardware attached to the computer.
