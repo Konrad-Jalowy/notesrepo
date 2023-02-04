@@ -38,4 +38,10 @@ for /l %%i in (1,1,10) do (
 FOR /R ".\" %%G in ("*.txt") DO (
  del %%G )
  ```
+ - **Rename file extensions in current directory:**
+ ```bat
+ @echo off
+ren *.txt *.md
+```
+
  
