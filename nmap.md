@@ -3,3 +3,7 @@
 ```sh
 nmap localhost
 ```
+-- **nmap for OS detection:**
+```sh
+nmap -O IP
+```
