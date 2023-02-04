@@ -18,6 +18,8 @@
 - CTRL + p: go to file
 - CTRL+1: focus on the editor (when you want to unfocus terminal without closing it)
 - CTRL + s: save i sometimes forget :)
+- CTRL + K, CTRL + S - show key bindings 
+- CTRL + SHIFT + 5 - split the terminal (while in focused terminal)
 ## VSC shortcuts for text editing:
 - CTRL+l: select current line
 - CTRL+Home: go to beginnig of the file
