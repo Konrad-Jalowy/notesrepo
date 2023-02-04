@@ -27,7 +27,8 @@
 - CTRL + / - comment selected
 - CTRL + F4 - close current tab
 - CTRL + w - close tab
-
+- CTRL + K CTRL + C - add line comment
+- CTRL + K CTRL + U - same
 ## Selected text editing:
 - CTRL + SHIFT + P - go to command mode:
     - upper
