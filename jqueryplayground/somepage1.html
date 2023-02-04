@@ -10,7 +10,12 @@
 <body>
     <button id="btn">Click me</button>
     <script>
-        
+        $( "#btn" ).on( "click", function() {
+            $(this ).text("clicked");
+            alert("clicked");
+            $(this).attr("disabled", "true");
+            $(this).off("click");
+          });
     </script>
 </body>
 </html>
