@@ -31,6 +31,8 @@
 - CTRL + K CTRL + U - same
 - CTRL + K S - save all
 - CTRL + K P - copy path of the current file to clipboard
+- CTRL + K R - reveal current file in explorer
+- CTRL + K O - open current file 
 ## Selected text editing:
 - CTRL + SHIFT + P - go to command mode:
     - upper
