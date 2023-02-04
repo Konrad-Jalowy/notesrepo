@@ -23,3 +23,4 @@
 - CTRL+Home: go to beginnig of the file
 - CTRL+End: go to end of the file
 - CTRL + / - comment selected
+- CTRL + F4 - close current tab
