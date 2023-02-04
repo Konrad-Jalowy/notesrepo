@@ -15,3 +15,11 @@ npm install -g cowsay
 ```sh
 npm uninstall cowsay
 ```
+- **Create package:**
+```sh
+npm init
+```
+- **Create package no questions asked:**
+```sh
+npm init -y
+```
