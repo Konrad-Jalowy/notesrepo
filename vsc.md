@@ -24,3 +24,10 @@
 - CTRL+End: go to end of the file
 - CTRL + / - comment selected
 - CTRL + F4 - close current tab
+- CTRL + w - close tab
+
+## Selected text editing:
+- CTRL + SHIFT + P - go to command mode:
+    - upper
+    - lower
+    - title
