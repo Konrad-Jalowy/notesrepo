@@ -29,6 +29,8 @@
 - CTRL + w - close tab
 - CTRL + K CTRL + C - add line comment
 - CTRL + K CTRL + U - same
+- CTRL + K S - save all
+- CTRL + K P - copy path of the current file to clipboard
 ## Selected text editing:
 - CTRL + SHIFT + P - go to command mode:
     - upper
