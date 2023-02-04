@@ -32,3 +32,10 @@ for /l %%i in (1,1,10) do (
     echo %%i >> text.txt   
 )
 ```
+- **Delete file example:**
+```bat
+@echo off
+FOR /R ".\" %%G in ("*.txt") DO (
+ del %%G )
+ ```
+ 
