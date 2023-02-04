@@ -11,3 +11,7 @@ nmap -O IP
 ```sh
 nmap -p 0-500 IP
 ``` 
+- **specifying name rather than port:**
+```sh
+nmap -p smtp IP
+```
