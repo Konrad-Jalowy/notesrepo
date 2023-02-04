@@ -14,3 +14,10 @@ $( "#btn" ).on( "click", function() {
             $(this).off("click");
           });
 ```
+- **Hide an element:**
+```jsx
+$("#btn").on("click", function()
+        {
+            $(this).hide();
+        });
+```
