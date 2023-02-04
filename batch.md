@@ -43,5 +43,14 @@ FOR /R ".\" %%G in ("*.txt") DO (
  @echo off
 ren *.txt *.md
 ```
-
+- **Cat all files with txt extension in current dir:**
+```bat
+@echo off
+type "*.txt"
+```
+- **Delete at once all txt files in current dir:**
+```bat
+@echo off
+del "*.txt"
+```
  
