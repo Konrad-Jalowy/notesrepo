@@ -59,7 +59,8 @@
         $class = "Prefix_" . ucfirst(strtolower($command));
         $run = new $class;
         ```
-    - **allow_url_include should be off - this allows to include fopen**
+    - **allow_url_include (php.ini) should be off - this allows to include fopen**
+    - **open_basedir (php.ini) - can limit files to be opened to specified directory-tree**
 - **Rails example of command injection vulnerable code**
 ```rb
     <%= form_tag("/search1", method: "get") do %>
