@@ -1,7 +1,7 @@
 ## Java Notes
 ### Basic Stuff:
 #### IntelliJ shortcuts
-- **CTRL + SHIFT + S - settings**
+- **CTRL + ALT + S - settings**
 #### Live Templates:
 - **psvm - shortcut for public static void main method**
 - **main - also public static void main shortcut**
@@ -16,6 +16,7 @@
 - **foreach - for each loop**
 - **itar - iterate over array using for loop**
 #### Imports/packages:
+- **package names always lowercase and unique**
 - **In IntelliJ you can go to settings>tree>compact middle packages to show/hide middle packages**
 - **Imports in Java:**
 ```java
@@ -48,3 +49,32 @@ for(String arg: args){
             System.out.println(arg);
         }
 ```
+#### Naming conventions:
+- **package names lowercase and unique**
+- **Class names:**
+    - **CamelCase**
+    - **Noun**
+    - **Starts with capital letter**
+- **Interfaces:**
+    - **Like classes**
+    - **Nouns or adjectives, often ending with -able suffix**
+- **Methods:**
+    - **mixedCase**
+    - **usually verbs or noun indicating return value**
+- **Consts:**
+    - **UPPERCASE**
+    - **SEPARATED_BY_UNDERSCORE**
+- **Variables:**
+    - **mixedCase**
+    - **starts with lowercase**
+    - **dont use underscores**
+    - **should be meaningful**
+- **Type parameters:**
+    - **single uppercase letter**
+    - **types and their meaning:**
+        - **E - element**
+        - **K - key**
+        - **T - type**
+        - **V - value**
+
+
