@@ -80,9 +80,24 @@
 
 ### Filesystems
 - **NTFS**
+    - **Windows only**
+    - **Appeared with Windows XP**
+    - **No file size limit**
+    - **No partition size limit**
+    - **Has features such as permissions or journaling**
 - **FAT32**
-    - **exFAT**
+    - **File Allocation Table**
+    - **Windows/Mac/Linux/any other devices**
+    - **Oldest**
+    - **File size limit: 4GB**
+    - **Partition size limit: 8TB**
+    - **No permissions feature - not suited for new Windows**
+- **exFAT**
+    - **Mac compatibile**
+    - **No file size limit**
+    - **Since Windows Vista**
 - **HFS**
+    - **Mac**
 - **Ext4**
-
+    - **Linux**
 
