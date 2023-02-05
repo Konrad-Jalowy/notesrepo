@@ -8,3 +8,10 @@ javac Main
 ```sh
 java Main
 ```
+### Control Structures
+- **for of loop in Java (over argv example):**
+```java
+for(String arg: args){
+            System.out.println(arg);
+        }
+```
