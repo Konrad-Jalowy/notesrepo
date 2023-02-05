@@ -8,3 +8,7 @@ touch my-file-{1..30}.txt
 ```sh
 touch component{.js, test.js, .css}
 ```
+- **Update and upgrade Ubuntu no prompts:**
+```sh
+sudo apt update && sudo apt upgrade -y
+```
