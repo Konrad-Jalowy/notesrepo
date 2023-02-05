@@ -180,4 +180,5 @@ public class Main {
 public record Student(String id, String name, String dateOfBirth, String classList) {
 }
 ```
-- **Record used as normal class would be**
+- **Record used as normal class would be in terms of syntax**
+- **Records are immutable**
