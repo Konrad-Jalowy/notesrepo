@@ -2,7 +2,7 @@
 ### Basic Stuff:
 #### IntelliJ shortcuts
 - **CTRL + ALT + S - settings**
-#### Live Templates:
+#### Live Templates (you can create your own):
 - **psvm - shortcut for public static void main method**
 - **main - also public static void main shortcut**
 - **sout - shortcut for System.out.println()**
@@ -78,6 +78,11 @@ for(String arg: args){
         - **V - value**
 
 #### Classes
+- **OOP - object oriented programmind**
+- **Objects have:**
+    - **State**
+    - **Behaviour**
+- **Class - blueprint for an object**
 - **Inheriting class - extends keyword**
 ```java
 public class Eagle extends Bird {}
