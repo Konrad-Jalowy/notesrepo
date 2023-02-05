@@ -34,7 +34,7 @@
 ### Drivers
 - **Driver** - a software component that lets the operating system and a device communicate with each other.
 - **Device manager (menedżer urządzeń)** - a component of the Microsoft Windows operating system. It allows users to view and control the hardware attached to the computer.
-### CPU
+### CPU:
 - **CPU - Central Processing Unit**
 - **CPU types:**
     - **ARM (Advanced RISC Machine)**
