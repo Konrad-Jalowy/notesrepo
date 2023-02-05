@@ -107,3 +107,4 @@ public void eat(int amount)
         add(int, float)
         add(float, int)
         ```
+- **Method overloading by changing return type of the method CANNOT be done in Java**
