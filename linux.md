@@ -16,3 +16,15 @@ sudo apt update && sudo apt upgrade -y
 ```sh
 df -h
 ```
+- **show umask (default permissions for newly created files) as a symbolic value:**
+```sh
+umask -S
+```
+- **change permissions for user, group and others for read, write and execute of a file:**
+```sh
+chmod 777 somefile.txt
+```
+- **Numbers and their meaning:**
+    - **4 - read**
+    - **2 - write**
+    - **1 - execute**
