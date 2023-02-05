@@ -51,5 +51,33 @@
 - **32 bit processor can handle only up to 4GB of RAM**
 - **For 64 bit processor, RAM limit is 16EB (exabytes)**
 - **GPU - Graphics Processing Unit**
+## OS (Operating System)
+- **OS is an interface betweeen applications and hardware**
+### OS tasks
+- **Disk management**
+- **Process management and scheduling**
+- **Memory management**
+- **Device management**
+- **Providing some kind of interface**
+- **Access control and protection**
+### OS types
+- **Mobile device OS**
+    - **Android**
+- **Workstation OS**
+    - **Windows**
+    - **Mac**
+    - **Some Linux distro suited for workstations - Ubuntu for example**
+- **Server OS**
+    - **Windows Server**
+    - **Linux distro suited for being a server**
+    - **Unix**
+- **Embedded OS**
+    - **ATM machine for example**
+- **Firmware OS**
+    - **BIOS**
+- **Hypervisor**
+    - **VMWare**
+
+
 
 
