@@ -53,14 +53,14 @@
 - **GPU - Graphics Processing Unit**
 ## OS (Operating System)
 - **OS is an interface betweeen applications and hardware**
-### OS tasks
+### OS tasks:
 - **Disk management**
 - **Process management and scheduling**
 - **Memory management**
 - **Device management**
 - **Providing some kind of interface**
 - **Access control and protection**
-### OS types
+### OS types:
 - **Mobile device OS**
     - **Android**
 - **Workstation OS**
