@@ -81,6 +81,7 @@
 ### Filesystems
 - **NTFS**
 - **FAT32**
+    - **exFAT**
 - **HFS**
 - **Ext4**
 
