@@ -12,3 +12,7 @@ touch component{.js, test.js, .css}
 ```sh
 sudo apt update && sudo apt upgrade -y
 ```
+- **show disk free space (in human readable form):**
+```sh
+df -h
+```
