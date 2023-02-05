@@ -77,4 +77,33 @@ for(String arg: args){
         - **T - type**
         - **V - value**
 
-
+#### Classes
+- **Inheriting class - extends keyword**
+```java
+public class Eagle extends Bird {}
+```
+- **Overriding methods - @Override annotation**
+```java
+@Override
+public void eat(int amount)
+{
+    System.out.println("The eagle is eating " + amount + " units of food");
+}
+```
+- **Overloading - same method name, multiple implementations**
+    - **Ways to overload a method:**
+        - **Number of parameters:**
+        ```java
+        add(int, int)
+        add(int, int, int)
+        ```
+        - **Data type of parameters:**
+        ```java
+        add(int, int)
+        add(int, float)
+        ```
+        - **Sequence of parameters:**
+        ```java
+        add(int, float)
+        add(float, int)
+        ```
