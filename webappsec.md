@@ -10,7 +10,7 @@
 - **Command injection is NOT code injection. Code injection allows an attacker to perform only what the code (say PHP) can perform**
 - **Command injection allows an attacker to use system commands**
 - **Also knows as Arbitrary Code Execution**
-- **Functions leading to command injection (PHP example):**
+- **Functions leading to command injection or code injection (PHP example):**
     - **exec()**
     - **shell_exec()**
     - **passthru()**
@@ -60,5 +60,25 @@
         $run = new $class;
         ```
     - **allow_url_include should be off - this allows to include fopen**
+- **Rails example of command injection vulnerable code**
+```rb
+    <%= form_tag("/search1", method: "get") do %>
+        <%= label_tag(:search, "Search:") %>
+        <%= text_field_tag(:search) %>
+        <%= submit_tag("Submit") %>
+    <% end %>
+    <% if(params[:search]) %>
+    <%= `find . -iname #{params[:search]};` %>
+    <% end %>
+```
+- **PHP example of command injection vulnerable code**
+```php
+<? if($_POST['filename']) {
+              $command  = "ls -ltr ".$_POST['filename']."";
+              $result = exec($command);
+              print("The command was: ".$command."<br/><br/>");
+              print("The result was: ".$result."");
 
+          } 
+```
 
