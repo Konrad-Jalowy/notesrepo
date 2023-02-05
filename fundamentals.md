@@ -50,5 +50,6 @@
         - **Server**
 - **32 bit processor can handle only up to 4GB of RAM**
 - **For 64 bit processor, RAM limit is 16EB (exabytes)**
+- **GPU - Graphics Processing Unit**
 
 
