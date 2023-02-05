@@ -123,3 +123,17 @@ public class Account {
 }
 ```
 - **Constructor chaining - calling one overloaded constructor from the other**
+- **You chain constructors by calling this() inside a constructor:**
+```java 
+public classs Account {
+    private double balance;
+    private String name;
+    public Account(double balance, String name){
+        this.balance = balance;
+        this.name = name;
+    }
+    public Account(){
+        this(0, "Unknown customer");
+    }
+}
+```
