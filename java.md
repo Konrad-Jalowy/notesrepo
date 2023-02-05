@@ -53,6 +53,7 @@ for(String arg: args){
             System.out.println(arg);
         }
 ```
+- **TODO: switch statemet as an argument to a method**
 - **Convert array to string:**
 ```java
 import java.util.Arrays;
