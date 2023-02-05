@@ -137,3 +137,23 @@ public class Account {
     }
 }
 ```
+- **Static class variables - used for variables shared between the instances. They are not final - they can be modified. Example:**
+```java
+class Dog {
+    public static String name;
+    public Dog(String name){
+        Dog.name = name;
+    }
+    public void printName(){
+        System.out.println(name);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+    Dog dog1 = new Dog("Nelson");
+    Dog dog2 = new Dog("Lexi");
+    dog1.printName(); //returns Lexi
+    dog2.printName(); //returns Lexi
+    }
+}
+```
