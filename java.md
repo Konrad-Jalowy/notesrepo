@@ -1,5 +1,7 @@
 ## Java Notes
 ### Basic Stuff:
+#### IntelliJ shortcuts
+- **CTRL + SHIFT + S - settings**
 #### Live Templates:
 - **psvm - shortcut for public static void main method**
 - **main - also public static void main shortcut**
@@ -12,6 +14,7 @@
 - **thr - throw new**
 - **fori - for loop with int value**
 - **foreach - for each loop**
+- **itar - iterate over array using for loop**
 #### Imports/packages:
 - **In IntelliJ you can go to settings>tree>compact middle packages to show/hide middle packages**
 - **Imports in Java:**
