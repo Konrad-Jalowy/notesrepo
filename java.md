@@ -38,6 +38,10 @@ import java.util.*
 ```sh
 javac Main
 ```
+- **Compile Main.java - specify out as destination (-d flag):**
+```sh
+javac -d out Main
+```
 - **Run Main.class:**
 ```sh
 java Main
