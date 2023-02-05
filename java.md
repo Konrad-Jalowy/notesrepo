@@ -170,3 +170,7 @@ public class Main {
     }
 }
 ```
+- **POJO - Plain Old Java Object:**
+    - **Has instance fields**
+    - **Few, if any, methods other than getters and setters**
+    - **Also called bean, JavaBean or DTO (Data Transfer Object)**
