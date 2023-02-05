@@ -78,7 +78,9 @@
 - **Hypervisor**
     - **VMWare**
 
-### Filesystems
+## Filesystems
+
+### Filesystems types:
 - **NTFS**
     - **Windows only**
     - **Appeared with Windows XP**
@@ -101,3 +103,10 @@
 - **Ext4**
     - **Linux**
 
+### Filesystems Features:
+- **Limitations**
+- **Permissions**
+- **Journaling**
+- **Naming rules**
+- **Compression**
+- **Encryption**
