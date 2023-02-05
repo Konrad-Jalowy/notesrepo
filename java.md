@@ -1,7 +1,18 @@
 ## Java Notes
-### Basic Stuff
+### Basic Stuff:
+#### Live Templates:
 - **psvm - shortcut for public static void main method**
+- **main - also public static void main shortcut**
 - **sout - shortcut for System.out.println()**
+- **souf - shortcut for System.out.printf();**
+- **psfs - public static final String**
+- **psfi - public static final int**
+- **prsf - private static final**
+- **St - String**
+- **thr - throw new**
+- **fori - for loop with int value**
+- **foreach - for each loop**
+#### Imports/packages:
 - **In IntelliJ you can go to settings>tree>compact middle packages to show/hide middle packages**
 - **Imports in Java:**
 ```java
@@ -14,7 +25,7 @@ public class Main {
     }
 }
 ```
-#### Commands
+#### Commands:
 - **Compile Main.java:**
 ```sh
 javac Main
@@ -23,8 +34,8 @@ javac Main
 ```sh
 java Main
 ```
-#### Control Structures
-- **for of loop in Java (over argv example):**
+#### Control Structures:
+- **foreach loop in Java (over argv example):**
 ```java
 for(String arg: args){
             System.out.println(arg);
