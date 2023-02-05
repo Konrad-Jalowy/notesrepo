@@ -28,6 +28,10 @@ public class Main {
     }
 }
 ```
+- **Import everything from the package:**
+```java
+import java.util.*
+```
 #### Commands:
 - **Compile Main.java:**
 ```sh
