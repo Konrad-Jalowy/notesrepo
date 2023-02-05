@@ -78,6 +78,10 @@
 - **Hypervisor**
     - **VMWare**
 
-
+### Filesystems
+- **NTFS**
+- **FAT32**
+- **HFS**
+- **Ext4**
 
 
