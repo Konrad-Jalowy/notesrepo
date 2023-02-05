@@ -175,3 +175,9 @@ public class Main {
     - **Has instance fields**
     - **Few, if any, methods other than getters and setters**
     - **Also called bean, JavaBean or DTO (Data Transfer Object)**
+- **Record - new type for such POJOs. Example of creation:**
+```java
+public record Student(String id, String name, String dateOfBirth, String classList) {
+}
+```
+- **Record used as normal class would be**
