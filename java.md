@@ -113,3 +113,12 @@ public void eat(int amount)
         add(float, int)
         ```
 - **Method overloading by changing return type of the method CANNOT be done in Java**
+- **Constructor overloading - creating many constructors with different parameters**
+- **Constructor example in Java:**
+```java
+public class Account {
+    public Account(){
+        System.out.println("Constructor called");
+    }
+}
+```
