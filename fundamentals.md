@@ -142,3 +142,5 @@
 - **SAN - Storage Area Network**
 - **NAS - Network Attached Storage**
 - **iSCSI - Internet Small Computer Systems Interface**
+- **NFC - Near Field Communication**
+- **SSID - Service Set Identifier**
