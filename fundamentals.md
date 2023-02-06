@@ -132,3 +132,4 @@
             - **As name suggests, handles private IPs, inside LAN, quick conf without DHCP**
         - **Zero Conf - Zero Configuration**
             - **Modern version of APIPA**
+- **Compression - creating single file out of multiple files that occupies less space**
