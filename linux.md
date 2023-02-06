@@ -8,6 +8,18 @@ which code
 ```sh
 whereis code
 ```
+- **show hostname/nodename:**
+```sh
+uname -n
+```
+- **show processor info:**
+```sh
+uname -p
+```
+- **show all system information:**
+```sh
+uname -a
+```
 - **Brace Expansion - not working on windows even though i have touch installed :/**
 ```sh
 touch my-file-{1..30}.txt
