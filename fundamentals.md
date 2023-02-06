@@ -175,3 +175,4 @@
 - **ICMP - Internet Control Message Protocol**
 - **IDS - Intrusion Detection System**
 - **IPS - Intrusion Prevention System**
+- **Mesh network topology - redundant and expensive but reliable**

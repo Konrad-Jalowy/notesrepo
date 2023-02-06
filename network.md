@@ -89,6 +89,7 @@
 - **ICMP - Internet Control Message Protocol**
 - **IDS - Intrusion Detection System**
 - **IPS - Intrusion Prevention System**
+- **Mesh network topology - redundant and expensive but reliable**
 ### Cables
 - **RJ-11** - telephone cable
 - **RJ-45** - ethernet cable
