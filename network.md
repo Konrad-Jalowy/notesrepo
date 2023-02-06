@@ -34,29 +34,29 @@
     - **Mesh**
     - **Hybrid**
 - **OSI MODEL:**
-    7. **Application Layer:**
+    7. **Application Layer:** <br>
         - **Closest to end user**
         - **High level API handled here**
         - **Resourse sharing**
-    6. **Presentation Layer:**
+    6. **Presentation Layer:** <br>
         - **Encryption/decryption**
         - **Encoding**
         - **Data compression**
-    5. **Session Layer:**
+    5. **Session Layer:** <br>
         - **Managing sessions: which should be kept active and which should be stopped**
         - **TCP/IP, TLS, SSL**
-    4. **Transport Layer:**
+    4. **Transport Layer:** <br>
         - **Segmentation of data**
         - **Transport**
-    3. **Network Layer:**
+    3. **Network Layer:** <br>
         - **IP Address**
         - **Routing**
         - **Packets**
-    2. **Data Link Layer:**
+    2. **Data Link Layer:** <br>
         - **Handles data frames**
         - **Handles errors**
         - **Determine protocol to be used**
-    1. **Physical Layer**
+    1. **Physical Layer** <br>
 ### Cables
 - **RJ-11** - telephone cable
 - **RJ-45** - ethernet cable
