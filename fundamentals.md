@@ -160,3 +160,4 @@
     - **no 3 way handshake**
     - **doesnt care about the packet loss**
     - **not ordered nor sequenced**
+- **Switch - device that takes in packets and redirects them to their next hop**

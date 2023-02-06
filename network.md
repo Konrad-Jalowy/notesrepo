@@ -73,6 +73,7 @@
     - **no 3 way handshake**
     - **doesnt care about the packet loss**
     - **not ordered nor sequenced**
+- **Switch - device that takes in packets and redirects them to their next hop**
 ### Cables
 - **RJ-11** - telephone cable
 - **RJ-45** - ethernet cable
