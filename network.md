@@ -86,6 +86,9 @@
 - **Switch - used for LANs**
 - **Router - used for accessing internet**
 - **WAP - Wireless Access Point**
+- **ICMP - Internet Control Message Protocol**
+- **IDS - Intrusion Detection System**
+- **IPS - Intrusion Prevention System**
 ### Cables
 - **RJ-11** - telephone cable
 - **RJ-45** - ethernet cable
