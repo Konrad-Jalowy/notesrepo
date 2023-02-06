@@ -57,7 +57,7 @@
         - **Handles errors** <br>
         - **Determine protocol to be used** <br>
         <br>
-    1. **Physical Layer**
+    \1. **Physical Layer**
 ### Cables
 - **RJ-11** - telephone cable
 - **RJ-45** - ethernet cable
