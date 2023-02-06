@@ -161,3 +161,9 @@
     - **doesnt care about the packet loss**
     - **not ordered nor sequenced**
 - **Switch - device that takes in packets and redirects them to their next hop**
+- **Router - routes data packets to their correct destination**
+| Layer          | Data name |
+|----------------|-----------|
+| L4 (Transport) | Segment   |
+| L3 (Network)   | Packet    |
+| L2 (Data Link) | Fragment  |
