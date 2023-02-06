@@ -56,7 +56,7 @@
         - **Handles data frames** <br>
         - **Handles errors** <br>
         - **Determine protocol to be used** <br>
-    1. **Physical Layer** <br>
+    1. **Physical Layer**
 ### Cables
 - **RJ-11** - telephone cable
 - **RJ-45** - ethernet cable
