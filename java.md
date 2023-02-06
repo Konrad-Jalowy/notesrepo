@@ -186,8 +186,10 @@ public record Student(String id, String name, String dateOfBirth, String classLi
 - **Calling parent class constructor**
 ```java 
 public class Dog extends Animal {
-    public Dog(){
-        super();
+    private String name;
+    public Dog(String name){
+        super("My animal");
+        this.name = name;
     }
 }
 ```
