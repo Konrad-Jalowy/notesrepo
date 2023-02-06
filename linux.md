@@ -28,3 +28,24 @@ chmod 777 somefile.txt
     - **4 - read**
     - **2 - write**
     - **1 - execute**
+- **list groups in linux:**
+```sh
+groups
+```
+- **list groups all in a separate line:**
+```sh
+groups | tr ' ' '\n'
+```
+- **list groups, each in separate line, numbered:**
+```sh
+groups | tr ' ' '\n' | nl
+```
+- **show groups user kj is in:**
+```sh
+groups kj
+```
+- **/etc/group - groups stored there in a format:**
+    - **group name**
+    - **password (x)**
+    - **GID (group ID)**
+    - **list of usernames belonging to it**
