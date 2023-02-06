@@ -16,7 +16,17 @@
     - **Subnet Mask** - Tells you which part of your IP is network part and host part
     - **Default gateway** - Tells you if devices are inside your network or not
     - **Public IP** - Your IP visible when you connect to the internet
-
+- **Networking:**
+    - **Conncetion of computers in order to share resources**
+    - **Each machine on the network usually called a node**
+- **Packet:**
+    - **A set size of data that is transferred over a physical medium to another node on a network**
+    - **Usually TCP/IP or UDP**
+- **Network medium:**
+    - **Unshielded twisted pair**
+    - **Shielded twisted pair**
+    - **Coaxial cable**
+    - **Fiber cable**
 ### Cables
 - **RJ-11** - telephone cable
 - **RJ-45** - ethernet cable
