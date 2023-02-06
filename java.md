@@ -53,7 +53,26 @@ for(String arg: args){
             System.out.println(arg);
         }
 ```
-- **TODO: switch statemet as an argument to a method**
+- **switch statemet as an argument to a method:**
+```java
+public class Main {
+    public static void show(int x) {
+        System.out.println(x);
+    }
+    public static void main(String[] args) {
+        for (int i = 1 ; i < 6; i++) {
+            show(switch(i) {
+               case 1 -> i + 1;
+               case 2 -> i * 2;
+               case 3 -> i + 10;
+               case 4 -> i + i * i;
+               case 5 -> i * 8;
+                default -> i;
+            });
+        }
+    }
+}
+```
 - **Convert array to string:**
 ```java
 import java.util.Arrays;
