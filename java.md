@@ -223,3 +223,5 @@ public String toString() {
     - **Implement completely different logic, overriding the parent behaviour**
     - **Just call parent method - redundancy, parent methods are available for children**
     - **Call parent method and include some other code extending parent method behaviour**
+- **Static methods cannot reference class using this context - seems obvious.**
+- **Since main entry point of the Java program is psvm, main class cannot have non-static methods/fields to be used in psvm referenced by this** 
