@@ -27,6 +27,12 @@
     - **Shielded twisted pair**
     - **Coaxial cable**
     - **Fiber cable**
+- **Network topologies:**
+    - **Bus**
+    - **Ring**
+    - **Star**
+    - **Mesh**
+    - **Hybrid**
 ### Cables
 - **RJ-11** - telephone cable
 - **RJ-45** - ethernet cable
