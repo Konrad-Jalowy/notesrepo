@@ -110,3 +110,25 @@
 - **Naming rules**
 - **Compression**
 - **Encryption**
+
+## Mock Exams notes:
+### Definitions:
+- **IOPS (Input/Output operations per second) - measurement of a disk throughput**
+- **GPS (Global Positioning System) - uses satelites for communication, from anywhere on the planet**
+- **SaaS (Software as a Service) - centrally hosted (cloud-based), "on-demand software", web-based end user software**
+- **SSD (Solid State Drive) - faster than any other technology at reading, only reading from RAM beats it**
+- **IP is configured by:**
+    - **DHCP (Dynamic Host Configuration Protocol)**
+        - **DHCP - modern implementation of BOOTIP**
+        - **DHCP Reservation - excludes IPs from being handed unless they meet a certain condition**
+            - **Discover**
+            - **Offer**
+            - **Request**
+            - **Acknowledge**
+        - **IPv6 by DHCPv6 Protocol**
+    - **Can be statically assigned**
+    - **When no static IP and cannot reach DHCP Server:**
+        - **APIPA - Automatic Private IP Addressing**
+            - **As name suggests, handles private IPs, inside LAN, quick conf without DHCP**
+        - **Zero Conf - Zero Configuration**
+            - **Modern version of APIPA**
