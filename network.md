@@ -58,6 +58,9 @@
         - **Determine protocol to be used** <br>
         <br>
     \1. **Physical Layer**
+- **TCP/IP uses client/server communication model**
+- **Every TPC packet must be aknowledged**
+- **TTL - Time To Live**
 ### Cables
 - **RJ-11** - telephone cable
 - **RJ-45** - ethernet cable

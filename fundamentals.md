@@ -144,3 +144,6 @@
 - **iSCSI - Internet Small Computer Systems Interface**
 - **NFC - Near Field Communication**
 - **SSID - Service Set Identifier**
+- **TCP/IP uses client/server communication model**
+- **Every TPC packet must be aknowledged**
+- **TTL - Time To Live**
