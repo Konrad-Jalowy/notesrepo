@@ -138,3 +138,7 @@
     - **Celluar**
     - **Radio**
 - **DNS (Domain Name System) - URL-to-IP translation**
+- **non-persisten storage - in-memory storage**
+- **SAN - Storage Area Network**
+- **NAS - Network Attached Storage**
+- **iSCSI - Internet Small Computer Systems Interface**
