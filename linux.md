@@ -68,3 +68,9 @@ cat /etc/group | grep sudo | cut -d ":" -f4
 - **video - self descriptive**
 - **floppy - self descriptive**
 - **sudo - executing sudo commands**
+- **staff - allows users to add local modifications to the system (/usr/local) without needing root privileges**
+- **shadow - /etc/shadow readable by them**
+- **disk - root access to disk**
+- **cdrom - self descriptive**
+- **fax - self descriptive**
+- **tty - TTY devices are owned by this group. This is used by write and wall to enable them to write to other people's TTYs, but it is not intended to be used directly.**
