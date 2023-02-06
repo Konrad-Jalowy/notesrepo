@@ -28,6 +28,10 @@ chmod 777 somefile.txt
     - **4 - read**
     - **2 - write**
     - **1 - execute**
+- **find path of a file .bashrc:**
+```sh
+readlink -f .bashrc
+```
 ## Groups
 ### Groups commands:
 - **list groups in linux:**
@@ -74,3 +78,5 @@ cat /etc/group | grep sudo | cut -d ":" -f4
 - **cdrom - self descriptive**
 - **fax - self descriptive**
 - **tty - TTY devices are owned by this group. This is used by write and wall to enable them to write to other people's TTYs, but it is not intended to be used directly.**
+
+## Bash Scripting
