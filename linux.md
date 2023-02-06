@@ -1,5 +1,13 @@
 ## Linux notes
 ### Commands notes
+- **Find where vscode is installed - which command:**
+```sh
+which code
+```
+- **whereis command:**
+```sh
+whereis code
+```
 - **Brace Expansion - not working on windows even though i have touch installed :/**
 ```sh
 touch my-file-{1..30}.txt
