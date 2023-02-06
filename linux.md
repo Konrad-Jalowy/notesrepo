@@ -8,6 +8,10 @@ which code
 ```sh
 whereis code
 ```
+- **find .bashrc file/files path:**
+```sh
+locate .bashrc
+```
 - **show hostname/nodename:**
 ```sh
 uname -n
