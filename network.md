@@ -81,6 +81,11 @@
 | L4 (Transport) | Segment   |
 | L3 (Network)   | Packet    |
 | L2 (Data Link) | Fragment  |
+
+- **Hub - brodcasts to everyone, not used nowadays**
+- **Switch - used for LANs**
+- **Router - used for accessing internet**
+- **WAP - Wireless Access Point**
 ### Cables
 - **RJ-11** - telephone cable
 - **RJ-45** - ethernet cable
