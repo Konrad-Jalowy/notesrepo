@@ -133,3 +133,7 @@
         - **Zero Conf - Zero Configuration**
             - **Modern version of APIPA**
 - **Compression - creating single file out of multiple files that occupies less space**
+- **Wired connection - better in terms of security than technologies using signals that can be easily intercepted such as**
+    - **Wireless**
+    - **Celluar**
+    - **Radio**
