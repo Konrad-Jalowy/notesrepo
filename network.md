@@ -75,6 +75,7 @@
     - **not ordered nor sequenced**
 - **Switch - device that takes in packets and redirects them to their next hop**
 - **Router - routes data packets to their correct destination**
+
 | Layer          | Data name |
 |----------------|-----------|
 | L4 (Transport) | Segment   |
