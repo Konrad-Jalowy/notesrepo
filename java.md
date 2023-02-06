@@ -200,3 +200,7 @@ public String toString() {
     return this.name;
 }
 ```
+- **Overridden method can:**
+    - **Implement completely different logic, overriding the parent behaviour**
+    - **Just call parent method - redundancy, parent methods are available for children**
+    - **Call parent method and include some other code extending parent method behaviour**
