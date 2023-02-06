@@ -90,6 +90,7 @@
 - **IDS - Intrusion Detection System**
 - **IPS - Intrusion Prevention System**
 - **Mesh network topology - redundant and expensive but reliable**
+- **DMZ - Demilitarized Zone, often called Perimeter Network**
 ### Cables
 - **RJ-11** - telephone cable
 - **RJ-45** - ethernet cable

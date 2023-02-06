@@ -176,3 +176,4 @@
 - **IDS - Intrusion Detection System**
 - **IPS - Intrusion Prevention System**
 - **Mesh network topology - redundant and expensive but reliable**
+- **DMZ - Demilitarized Zone, often called Perimeter Network**
