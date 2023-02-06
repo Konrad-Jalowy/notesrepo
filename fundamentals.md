@@ -155,3 +155,8 @@
     - **can be spoofed like IP**
     - **doesn not change even though IP does**
     - **address commonly identified by physical hardware**
+- **UDP - User Datagram Protocol:**
+    - **opposite of TCP**
+    - **no 3 way handshake**
+    - **doesnt care about the packet loss**
+    - **not ordered nor sequenced**
