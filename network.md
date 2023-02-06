@@ -35,27 +35,27 @@
     - **Hybrid**
 - **OSI MODEL:**
     7. **Application Layer:** <br>
-        - **Closest to end user**
-        - **High level API handled here**
-        - **Resourse sharing**
+        - **Closest to end user** <br>
+        - **High level API handled here** <br>
+        - **Resourse sharing** <br>
     6. **Presentation Layer:** <br>
-        - **Encryption/decryption**
-        - **Encoding**
-        - **Data compression**
+        - **Encryption/decryption** <br>
+        - **Encoding** <br>
+        - **Data compression** <br>
     5. **Session Layer:** <br>
-        - **Managing sessions: which should be kept active and which should be stopped**
-        - **TCP/IP, TLS, SSL**
+        - **Managing sessions: which should be kept active and which should be stopped** <br>
+        - **TCP/IP, TLS, SSL** <br>
     4. **Transport Layer:** <br>
-        - **Segmentation of data**
-        - **Transport**
+        - **Segmentation of data** <br>
+        - **Transport** <br>
     3. **Network Layer:** <br>
-        - **IP Address**
-        - **Routing**
-        - **Packets**
+        - **IP Address** <br>
+        - **Routing** <br>
+        - **Packets** <br>
     2. **Data Link Layer:** <br>
-        - **Handles data frames**
-        - **Handles errors**
-        - **Determine protocol to be used**
+        - **Handles data frames** <br>
+        - **Handles errors** <br>
+        - **Determine protocol to be used** <br>
     1. **Physical Layer** <br>
 ### Cables
 - **RJ-11** - telephone cable
