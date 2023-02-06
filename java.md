@@ -183,3 +183,11 @@ public record Student(String id, String name, String dateOfBirth, String classLi
 - **Record used as normal class would be in terms of syntax**
 - **Records are immutable**
 - **IS-A relationship - class Dog inherits form Animal: Dog is an animal**
+- **Calling parent class constructor**
+```java 
+public class Dog extends Animal {
+    public Dog(){
+        super();
+    }
+}
+```
