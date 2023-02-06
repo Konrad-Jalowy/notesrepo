@@ -137,3 +137,4 @@
     - **Wireless**
     - **Celluar**
     - **Radio**
+- **DNS (Domain Name System) - URL-to-IP translation**
