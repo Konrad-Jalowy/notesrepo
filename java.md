@@ -224,4 +224,19 @@ public String toString() {
     - **Just call parent method - redundancy, parent methods are available for children**
     - **Call parent method and include some other code extending parent method behaviour**
 - **Static methods cannot reference class using this context - seems obvious.**
-- **Since main entry point of the Java program is psvm, main class cannot have non-static methods/fields to be used in psvm referenced by this** 
+- **Since main entry point of the Java program is psvm, main class cannot have non-static methods/fields to be used in psvm referenced by this**
+- **Main classname is just a convention but psvm is required. Main class is not static. In theory it can have non-static fields but its weird. Example from stackoverflow:**
+```java
+public class MainClass {
+    int value;
+
+    public void printValue() {
+        System.out.println("" + value);
+    }
+
+    public static void main(String[] args){
+        MainClass o = new MainClass();
+        o.printValue();
+    }
+}
+``` 
