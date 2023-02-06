@@ -239,4 +239,5 @@ public class MainClass {
         o.printValue();
     }
 }
-``` 
+```
+- **java.lang.Object - each class intrinsically extends it**
