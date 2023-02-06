@@ -28,6 +28,8 @@ chmod 777 somefile.txt
     - **4 - read**
     - **2 - write**
     - **1 - execute**
+## Groups
+### Groups commands:
 - **list groups in linux:**
 ```sh
 groups
@@ -44,8 +46,25 @@ groups | tr ' ' '\n' | nl
 ```sh
 groups kj
 ```
+### Groups in system:
 - **/etc/group - groups stored there in a format:**
     - **group name**
     - **password (x)**
     - **GID (group ID)**
     - **list of usernames belonging to it**
+- **get sudo group from /etc/group:**
+```sh
+cat /etc/group | grep sudo
+```
+- **get only user list from /etc/group for a group sudo:**
+```sh
+cat /etc/group | grep sudo | cut -d ":" -f4
+```
+### System groups granting priviledges:
+- **lp - using printer**
+- **lpadmin - managing printer**
+- **scanner - using scanners**
+- **audio - self descriptive**
+- **video - self descriptive**
+- **floppy - self descriptive**
+- **sudo - executing sudo commands**
