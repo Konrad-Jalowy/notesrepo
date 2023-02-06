@@ -240,4 +240,8 @@ public class MainClass {
     }
 }
 ```
-- **java.lang.Object - each class intrinsically extends it**
+- **java.lang.Object - each class intrinsically extends it. Methods:**
+    - **toString**
+    - **equals**
+    - **clone**
+    - **hashCode**
