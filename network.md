@@ -56,11 +56,18 @@
         - **Handles data frames** <br>
         - **Handles errors** <br>
         - **Determine protocol to be used** <br>
-        <br>
     \1. **Physical Layer**
 - **TCP/IP uses client/server communication model**
 - **Every TPC packet must be aknowledged**
 - **TTL - Time To Live**
+- **TCP/IP uses 3-way handshake**
+    - **SYN ->>>**
+    - **<<<-SYN/ACK**
+    - **ACK->>>**
+- **MAC - Media Access Control:**
+    - **can be spoofed like IP**
+    - **doesn not change even though IP does**
+    - **address commonly identified by physical hardware**
 ### Cables
 - **RJ-11** - telephone cable
 - **RJ-45** - ethernet cable
