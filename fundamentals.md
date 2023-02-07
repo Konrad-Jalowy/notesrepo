@@ -177,3 +177,6 @@
 - **IPS - Intrusion Prevention System**
 - **Mesh network topology - redundant and expensive but reliable**
 - **DMZ - Demilitarized Zone, often called Perimeter Network**
+- **Star network topology - central point is its single point of failure**
+- **UTP - Unishielded Twisted Pair**
+- **STP - Shielded Twisted Pair**
