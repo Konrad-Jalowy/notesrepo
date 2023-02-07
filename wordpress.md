@@ -56,3 +56,16 @@ while(have_posts())
 }
 ?>
 ```
+- **the_permalink() - link for the detail page:**
+```php
+<?php
+while(have_posts())
+{
+    the_post(); 
+    ?> <h2>Title: <a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
+    <p><?php the_content();?></p>
+    <hr>
+    <?php
+}
+?>
+```
