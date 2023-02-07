@@ -141,7 +141,7 @@ add_action('wp_enqueue_scripts', 'load_files');
 <body>
 <h1>Greetings from header.php</h1>
 ```
-**footer.php:**
+**footer.php (wp_footer() loads scripts - for example black admin bar):**
 ```html
 <footer>
     <p><strong>Hello From footer.php!</strong></p>
