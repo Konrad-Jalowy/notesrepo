@@ -129,6 +129,19 @@ public static void main(String[] args) {
         System.out.println(hello.isBlank()); //false
     }
 ```
+#### String comparison methods:
+- **startsWith**
+- **endsWith**
+- **contains**
+- **regionMatches**
+```java
+public static void main(String[] args) {
+        String hello = "Hello World";
+        System.out.println(hello.startsWith("Hello")); //true
+        System.out.println(hello.endsWith("world")); //true
+        System.out.println(hello.contains("ll")); //true
+    }
+```
 - **Return last character function example:**
 ```java
 public static void main(String[] args) {
