@@ -164,6 +164,7 @@ public static void main(String[] args) {
 #### Other useful String methods:
 - **substring**
 - **join**
+- **concat**
 
 - **substring method example:**
 ```java
@@ -179,6 +180,14 @@ public static void main(String[] args) {
 public static void main(String[] args) {
         String date = String.join("/", "17", "12", "1992");
         System.out.println(date); // 17/12/1992
+    }
+```
+- **concat method example:**
+```java
+public static void main(String[] args) {
+        String hello = "";
+        hello = hello.concat("Hello").concat(" ").concat("World!");
+        System.out.println(hello); //Hello World!
     }
 ```
 ### Classes
