@@ -130,6 +130,7 @@ function load_files(){
 add_action('wp_enqueue_scripts', 'load_files');
 ```
 - **wp_header(), wp_footer() and header.php/footer.php structure:**
+
 **header.php:**
 ```html
 <!DOCTYPE html>
