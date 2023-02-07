@@ -69,3 +69,21 @@ while(have_posts())
 }
 ?>
 ```
+- **single.php - a page for detail page of a post:**
+```php
+<?php
+while(have_posts())
+{
+    the_post(); 
+    ?> 
+    <h1>Powered by single.php!</h1>
+    <h2>Title: <?php the_title();?></h2>
+    <p><?php the_content();?></p>
+    <?php
+}
+?>
+```
+- **Basic files and their meaning:**
+    - **index.php - home page**
+    - **single.php - detail post page**
+    - **page.php - pages powered by it**
