@@ -14,3 +14,9 @@ Author: Me
 Version: 1.0
 */
 ```
+- **Check if works - you can put whatever you want in index.php. Check if wordpress bloginfo() function works:**
+```php
+<?php
+bloginfo('name');
+?>
+```
