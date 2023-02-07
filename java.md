@@ -237,6 +237,22 @@ public static void main(String[] args) {
 
     }
 ```
+#### Basic String tasks
+- **println prints String + newline**
+- **print prints text without newline**
+- **printf prints text with specified format**
+- **java.util.Scanner - class for Scanner (getting input etc)**
+- **new Scanner(System.in) - scanner for reading user input**
+- **sc.nextLine() - read line from input**
+- **example:**
+```java
+public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your name:>");
+        String name = sc.nextLine();
+        System.out.printf("Your name is %s", name);
+    }
+```
 ### Classes
 - **OOP - object oriented programmind**
 - **Objects have:**
