@@ -83,7 +83,34 @@ while(have_posts())
 }
 ?>
 ```
+- **header.php - file for a header:**
+```php
+<h1>Hi from header.php!</h1>
+```
+- **footer.php - file for a footer:**
+```php
+<footer>
+    <p><strong>Hello From footer.php!</strong></p>
+</footer>
+```
+- **get_header() and get_footer functions to output header and footer anywhere in WP:**
+```php
+<?php
+get_header();
+while(have_posts())
+{
+    the_post(); 
+    ?> <h2>Title: <a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
+    <p><?php the_content();?></p>
+    <hr>
+    <?php
+}
+get_footer();
+?>
+```
 - **Basic files and their meaning:**
     - **index.php - home page**
     - **single.php - detail post page**
     - **page.php - pages powered by it**
+    - **header.php - header file accessible by get_header() function**
+    - **footer.php - footer file accessible by get_footer() function**
