@@ -160,6 +160,18 @@ public static void main(String[] args) {
 - **trim**
 - **toLowerCase**
 - **toUpperCase**
+
+#### Other useful String methods:
+- **substring**
+- **join**
+
+- **join method example:**
+```java
+public static void main(String[] args) {
+        String date = String.join("/", "17", "12", "1992");
+        System.out.println(date); // 17/12/1992
+    }
+```
 ### Classes
 - **OOP - object oriented programmind**
 - **Objects have:**
