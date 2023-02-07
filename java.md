@@ -166,6 +166,7 @@ public static void main(String[] args) {
 - **join**
 - **concat**
 - **replace**
+- **repeat**
 #### Examples:
 - **substring method example:**
 ```java
@@ -211,6 +212,13 @@ public static void main(String[] args) {
         String hello = "";
         hello = hello.concat("Hello").concat(" ").concat("World!");
         System.out.println(hello); //Hello World!
+    }
+```
+- **repeat method example:**
+```java
+public static void main(String[] args) {
+        System.out.println("-".repeat(25));
+        // -------------------------
     }
 ```
 #### Basic Regex String Methods:
