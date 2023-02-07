@@ -165,7 +165,8 @@ public static void main(String[] args) {
 - **substring**
 - **join**
 - **concat**
-#### Examples
+- **replace**
+#### Examples:
 - **substring method example:**
 ```java
 public static void main(String[] args) {
@@ -173,6 +174,28 @@ public static void main(String[] args) {
         int startIdx = groups.indexOf(":");
         String kjGroups = groups.substring(startIdx+1);
         System.out.println(kjGroups.trim());
+    }
+```
+- **replace method example:**
+```java
+public static void main(String[] args) {
+        String groups = "kj : kj adm cdrom sudo dip plugdev lpadmin lxd sambashare" ;
+        int startIdx = groups.indexOf(":");
+        String kjGroups = groups.substring(startIdx+1);
+        kjGroups = kjGroups.trim();
+        kjGroups = kjGroups.replace(" ", ",");
+        System.out.println(kjGroups); // 'kj,adm,cdrom,sudo,dip,plugdev,lpadmin,lxd,sambashare'
+    }
+```
+- **replace (like many methods) is overloaded with different variants. example:**
+```java
+public static void main(String[] args) {
+        String groups = "sudo:x:27:kj\n";
+        groups = groups.replace("\n", "");
+        groups = groups.replace(":x:", ":");
+        System.out.println(groups); // sudo:27:kj
+
+
     }
 ```
 - **join method example:**
@@ -188,6 +211,22 @@ public static void main(String[] args) {
         String hello = "";
         hello = hello.concat("Hello").concat(" ").concat("World!");
         System.out.println(hello); //Hello World!
+    }
+```
+#### Basic Regex String Methods:
+- **replaceFirst**
+- **replaceAll**
+#### Examples
+- **replaceFirst:**
+```java
+public static void main(String[] args) {
+        String groups = "sudo:x:27:kj\n";
+        groups = groups.replace("\n", "");
+        groups = groups.replaceFirst(":x:", ":");
+        System.out.println(groups); //sudo:27:kj
+        groups = groups.replaceFirst(":[0-9]+:", ":");
+        System.out.println(groups); //sudo:kj
+
     }
 ```
 ### Classes
