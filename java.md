@@ -245,3 +245,7 @@ public class MainClass {
     - **equals**
     - **clone**
     - **hashCode**
+- **Method is considered overridden if it follows these rules:**
+    - **same name and arguments**
+    - **same return type or return type is subclass of the return type of the parent class**
+    - **it cant have lower access modifier**
