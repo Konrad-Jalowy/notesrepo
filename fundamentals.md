@@ -180,3 +180,10 @@
 - **Star network topology - central point is its single point of failure**
 - **UTP - Unishielded Twisted Pair**
 - **STP - Shielded Twisted Pair**
+- **MMC - Microsoft Management Console**
+- **RAID - redundant array of independent disks**
+- **Network backbones:**
+    - **Serial**
+    - **Hierarchical/Distributed**
+    - **Collapsed**
+- **Node - endpoint** 

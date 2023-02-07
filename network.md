@@ -94,6 +94,11 @@
 - **Star network topology - central point is its single point of failure**
 - **UTP - Unishielded Twisted Pair**
 - **STP - Shielded Twisted Pair**
+- **Network backbones:**
+    - **Serial**
+    - **Hierarchical/Distributed**
+    - **Collapsed**
+- **Node - endpoint** 
 ### Cables
 - **RJ-11** - telephone cable
 - **RJ-45** - ethernet cable
