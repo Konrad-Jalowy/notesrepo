@@ -93,7 +93,7 @@ while(have_posts())
     <p><strong>Hello From footer.php!</strong></p>
 </footer>
 ```
-- **get_header() and get_footer functions to output header and footer anywhere in WP:**
+- **get_header() and get_footer() functions to output header and footer anywhere in WP:**
 ```php
 <?php
 get_header();
