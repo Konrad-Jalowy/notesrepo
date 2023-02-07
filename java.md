@@ -152,7 +152,14 @@ public static void main(String[] args) {
         System.out.println(hello.contains("ll")); //true
     }
 ```
-
+#### String manipulation methods:
+- **indent**
+- **strip**
+- **stripLeading**
+- **stripTrailing**
+- **trim**
+- **toLowerCase**
+- **toUpperCase**
 ### Classes
 - **OOP - object oriented programmind**
 - **Objects have:**
