@@ -165,7 +165,7 @@ public static void main(String[] args) {
 - **substring**
 - **join**
 - **concat**
-
+#### Examples
 - **substring method example:**
 ```java
 public static void main(String[] args) {
