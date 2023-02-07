@@ -20,3 +20,39 @@ Version: 1.0
 bloginfo('name');
 ?>
 ```
+## Basics
+### Loop over posts:
+- **have_posts() and the_post() - looping over posts test:**
+```php
+<?php
+while(have_posts())
+{
+    the_post(); 
+    echo "Post found!";
+}
+?>
+```
+- **the_title() function:**
+```php
+<?php
+while(have_posts())
+{
+    the_post(); 
+    ?> <h2>Title: <?php the_title()?></h2>
+    <?php
+}
+?>
+```
+- **the_content() function for post body:**
+```php
+<?php
+while(have_posts())
+{
+    the_post(); 
+    ?> <h2>Title: <?php the_title()?></h2>
+    <p><?php the_content()?></p>
+    <hr>
+    <?php
+}
+?>
+```
