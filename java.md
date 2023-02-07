@@ -165,6 +165,15 @@ public static void main(String[] args) {
 - **substring**
 - **join**
 
+- **substring method example:**
+```java
+public static void main(String[] args) {
+        String groups = "kj : kj adm cdrom sudo dip plugdev lpadmin lxd sambashare" ;
+        int startIdx = groups.indexOf(":");
+        String kjGroups = groups.substring(startIdx+1);
+        System.out.println(kjGroups.trim());
+    }
+```
 - **join method example:**
 ```java
 public static void main(String[] args) {
