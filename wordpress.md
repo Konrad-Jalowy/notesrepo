@@ -108,9 +108,32 @@ while(have_posts())
 get_footer();
 ?>
 ```
+- **wp_head() - in our header.php file:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <?php wp_head();?>
+</head>
+<body>
+<h1>Greetings from header.php</h1>
+</body>
+</html>
+```
+- **functions.php - adding styles:**
+```php
+<?php 
+function load_files(){
+    wp_enqueue_style('main-style-whatever', get_stylesheet_uri());
+}
+
+add_action('wp_enqueue_scripts', 'load_files');
+```
+
 - **Basic files and their meaning:**
     - **index.php - home page**
     - **single.php - detail post page**
     - **page.php - pages powered by it**
     - **header.php - header file accessible by get_header() function**
     - **footer.php - footer file accessible by get_footer() function**
+    - **functions.php - internal functions and conf**
