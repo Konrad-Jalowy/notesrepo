@@ -109,7 +109,26 @@ public class Main {
         - **K - key**
         - **T - type**
         - **V - value**
-
+### String:
+#### String inspection methods:
+- **length**
+- **charAt**
+- **indexOf**
+- **lastIndexOf**
+- **isEmpty**
+- **isBlank**
+```java
+public static void main(String[] args) {
+        String hello = "Hello World";
+        System.out.println(hello.length()); //11
+        System.out.println(hello.charAt(0)); // 'H'
+        System.out.println(hello.indexOf('l')); //2
+        System.out.println(hello.lastIndexOf('l')); //9
+        System.out.println(hello.isEmpty()); //false - but its always false! dont use
+        System.out.println(" ".isBlank()); // true
+        System.out.println(hello.isBlank()); //false
+    }
+```
 #### Classes
 - **OOP - object oriented programmind**
 - **Objects have:**
