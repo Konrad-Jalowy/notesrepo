@@ -129,6 +129,26 @@ function load_files(){
 
 add_action('wp_enqueue_scripts', 'load_files');
 ```
+- **wp_header(), wp_footer() and header.php/footer.php structure:**
+**header.php:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <?php wp_head();?>
+</head>
+<body>
+<h1>Greetings from header.php</h1>
+```
+**footer.php:**
+```html
+<footer>
+    <p><strong>Hello From footer.php!</strong></p>
+</footer>
+<?php wp_footer();?>
+</body>
+</html>
+```
 - **wp_head() adding empty space for an admin problem. Solution: add this to functions.php:**
 ```php
 add_action('get_header', 'my_filter_head');
