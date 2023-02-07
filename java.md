@@ -129,6 +129,16 @@ public static void main(String[] args) {
         System.out.println(hello.isBlank()); //false
     }
 ```
+- **Return last character function example:**
+```java
+public static void main(String[] args) {
+        String hello = "Hello World";
+        System.out.println(returnLastCharacter(hello));
+    }
+    public static char returnLastCharacter(String string){
+        return string.charAt(string.length() - 1);
+    }
+```
 #### Classes
 - **OOP - object oriented programmind**
 - **Objects have:**
