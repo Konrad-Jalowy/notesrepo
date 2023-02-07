@@ -238,12 +238,15 @@ public static void main(String[] args) {
     }
 ```
 #### Basic String tasks
-- **println prints String + newline**
+- **println (sout) prints String + newline**
+- **empty println (sout) prints newline**
 - **print prints text without newline**
-- **printf prints text with specified format**
+- **printf (souf) prints text with specified format**
 - **java.util.Scanner - class for Scanner (getting input etc)**
 - **new Scanner(System.in) - scanner for reading user input**
 - **sc.nextLine() - read line from input**
+- **sc.nextInt() - reads next integer**
+- **Integer.parseInt(str) - can also parse String to int**
 - **example:**
 ```java
 public static void main(String[] args) {
@@ -251,6 +254,17 @@ public static void main(String[] args) {
         System.out.print("Enter your name:>");
         String name = sc.nextLine();
         System.out.printf("Your name is %s", name);
+    }
+```
+- **example 2:**
+```java
+public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Input a number:");
+        int number = sc.nextInt();
+        System.out.printf("Your number is %d", number);
+        System.out.println();
+        System.out.printf("Your number times 2 is %d", number*2);
     }
 ```
 ### Classes
