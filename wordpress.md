@@ -129,6 +129,14 @@ function load_files(){
 
 add_action('wp_enqueue_scripts', 'load_files');
 ```
+- **wp_head() adding empty space for an admin problem. Solution: add this to functions.php:**
+```php
+add_action('get_header', 'my_filter_head');
+
+function my_filter_head() {
+   remove_action('wp_head', '_admin_bar_bump_cb');
+} 
+```
 
 - **Basic files and their meaning:**
     - **index.php - home page**
