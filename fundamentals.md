@@ -216,3 +216,4 @@
 | Charging Port     | Red/Orange/Yellow |
 
 - **Charging port - USB port for charging. If desktop is turned off, its still charging.**
+- **USBs are backward-compatible**
