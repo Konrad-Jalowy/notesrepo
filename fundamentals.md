@@ -194,6 +194,7 @@
     - **RAID 6 - minimum 4 hdds, you can lose up to 2 drives before losing data**
     - **RAID 10 (striping mirrors) - striping like in RAID 0 but not over 2 hdds but over 2 hdds + 2 mirrors (mirroring like in RAID 1)**
     - **RAID 0+1 - two striped pairs, first is mirrored by the second**
+- **USB standards and their speeds:**
 
 | Standard      | Maximum speed |
 |---------------|---------------|
@@ -203,4 +204,15 @@
 | USB 3.0       | 5 Gbps        |
 | USB 3.1 Gen 1 | 5 Gbps        |
 | USB 3.1 Gen 2 | 10 Gbps       |
+
+- **Recognizing ports for USB standards by color:**
+
+| Standard          | Color             |
+|-------------------|-------------------|
+| USB 1.1           | White             |
+| USB 2.0           | Black             |
+| USB 3.0-3.1 Gen 1 | Blue              |
+| USB 3.1           | Teal              |
+| Charging Port     | Red/Orange/Yellow |
+
 
