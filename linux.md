@@ -152,6 +152,7 @@ fi
 - **case $variable in [yY]* ) commands;; esac - switch for bash**
 - **function_name() { [function body]} - declare function in bash**
 - **function_name - call function in bash**
+- **if [$var == "string" ]; - comparing strings in bash:**
 - **Example: defining and calling a function:**
 ```sh
 #!/usr/bin/bash
