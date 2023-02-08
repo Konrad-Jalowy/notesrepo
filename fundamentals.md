@@ -215,4 +215,4 @@
 | USB 3.1           | Teal              |
 | Charging Port     | Red/Orange/Yellow |
 
-
+- **Charging port - USB port for charging. If desktop is turned off, its still charging.**
