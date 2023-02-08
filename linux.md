@@ -150,3 +150,14 @@ fi
 - **read -p "Prompt msg" variable -read prompt from user and save it**
 - **read -s variable [no message with -s! you must echo it yourself] - read secure for passwords**
 - **case $variable in [yY]* ) commands;; esac - switch for bash**
+- **function_name() { [function body]} - declare function in bash**
+- **function_name - call function in bash**
+- **Example: defining and calling a function:**
+```sh
+#!/usr/bin/bash
+
+say_hello() {
+echo "hello world!"
+} 
+say_hello
+```
