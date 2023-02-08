@@ -194,4 +194,12 @@
     - **RAID 6 - minimum 4 hdds, you can lose up to 2 drives before losing data**
     - **RAID 10 (striping mirrors) - striping like in RAID 0 but not over 2 hdds but over 2 hdds + 2 mirrors (mirroring like in RAID 1)**
     - **RAID 0+1 - two striped pairs, first is mirrored by the second**
+| Standard      | Maximum speed |
+|---------------|---------------|
+| USB 1.0       | 1.5 Mbps      |
+| USB 1.1       | 12 Mbps       |
+| USB 2.0       | 480 Mbps      |
+| USB 3.0       | 5 Gbps        |
+| USB 3.1 Gen 1 | 5 Gbps        |
+| USB 3.1 Gen 2 | 10 Gbps       |
 
