@@ -278,6 +278,19 @@ public static void main(String[] args) {
         //[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
 ```
+- **Arrays.copyOf:**
+```java
+ public static void main(String[] args) {
+        int[] myArray = new int[10];
+        Arrays.fill(myArray, 1);
+        int[] myArray2 = new int[10];
+        myArray2 = Arrays.copyOf(myArray, myArray.length);
+        System.out.println(Arrays.toString(myArray));
+        //[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        System.out.println(Arrays.toString(myArray2));
+        //[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    }
+```
 
 #### Basic String tasks
 - **println (sout) prints String + newline**
