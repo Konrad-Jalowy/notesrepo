@@ -134,3 +134,12 @@ if [ -f helloworld.sh ]; then
 . helloworld.sh
 fi
 ```
+- **Example: check if .bash_aliases is missing:**
+```sh
+#!/usr/bin/bash
+if [ ! -f ~/.bash_aliases ]; then
+	echo "Bash aliases doesnt exist!"
+else
+	echo "Bash aliases ok!"
+fi
+```
