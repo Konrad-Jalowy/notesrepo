@@ -187,3 +187,11 @@
     - **Hierarchical/Distributed**
     - **Collapsed**
 - **Node - endpoint** 
+- **RAID levels:**
+    - **RAID 0 (striping) - 2 hdds (or more), 0 redundancy, you get speed in RAID 0**
+    - **RAID 1 (mirroring) - 2 redundant hdds, less space and less speed since you write everything twice but more fault-tolerant**
+    - **RAID 5 (striping with parity) - minimum 3 hdds, you can lose 1 drive before losing data**
+    - **RAID 6 - minimum 4 hdds, you can lose up to 2 drives before losing data**
+    - **RAID 10 (striping mirrors) - striping like in RAID 0 but not over 2 hdds but over 2 hdds + 2 mirrors (mirroring like in RAID 1)**
+    - **RAID 0+1 - two striped pairs, first is mirrored by the second**
+
