@@ -471,3 +471,9 @@ public class MainClass {
     - **same name and arguments**
     - **same return type or return type is subclass of the return type of the parent class**
     - **it cant have lower access modifier**
+- **Abstract classess:**
+    - **Cannot be instantiated directly**
+    - **Can have 0 or more abstract methods**
+    - **Cannot be private or final**
+    - **Abstract class extending another abstract class inherits all of its abstract methods**
+    - **The first concrete class must provide implementations for all abstract method inherited from abstract class**
