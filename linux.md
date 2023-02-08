@@ -104,3 +104,17 @@ cat /etc/group | grep sudo | cut -d ":" -f4
 - **tty - TTY devices are owned by this group. This is used by write and wall to enable them to write to other people's TTYs, but it is not intended to be used directly.**
 
 ## Bash Scripting
+### Control structures and examples:
+- **dot operator - evaluate commands in the current context**
+```sh
+. text.sh
+```
+- **If[cond];then-fi block - self-descriptive**
+- **If [-f path] - if file exists**
+- **If [-r path] - if file exists and is readable**
+- **Example: if file .bash_aliases exists then execute its commands:**
+```sh
+if [ -f ~/.bash_aliases ]; then 
+    . ~/.bash_aliases
+fi
+```
