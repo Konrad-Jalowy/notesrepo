@@ -291,6 +291,16 @@ public static void main(String[] args) {
         //[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
 ```
+- **Arrays.binarySearch:**
+```java
+public static void main(String[] args) {
+        int[] myArray = new int[]{3,2,1,4,2,3};
+        Arrays.sort(myArray);
+        if(Arrays.binarySearch(myArray,2)>=0){
+            System.out.println("2 found in array");
+        }
+    }
+```
 
 #### Basic String tasks
 - **println (sout) prints String + newline**
