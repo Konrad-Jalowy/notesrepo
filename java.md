@@ -245,16 +245,29 @@ public static void main(String[] args) {
         System.out.println(Arrays.toString(myArray));
     }
 ```
+- **Fixed-size array:**
+```java
+public static void main(String[] args) {
+        int[] myArray = new int[10];
+        System.out.println(Arrays.toString(myArray));
+        //[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    }
+```
+- **Custom IntelliJ live-template soutar with cursor position specified:**
+```java
+System.out.println(Arrays.toString($END$));
+```
 #### java.util.Arrays:
 - **Arrays.sort (in-place):**
 ```java
 public static void main(String[] args) {
         int[] myArray = new int[]{3,2,1,4,6,5,8,10,7,9};
         System.out.println(Arrays.toString(myArray));
-        Arrays.sort(myArray);
+        Arrays.sort(myArray); //void, changes original array
         System.out.println(Arrays.toString(myArray));
     }
 ```
+- **Arrays.fill:**
 
 #### Basic String tasks
 - **println (sout) prints String + newline**
