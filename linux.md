@@ -1,5 +1,12 @@
 ## Linux notes
 ### Commands notes
+- **List all files with .sh extension in current directory:**
+```sh
+ls | grep -E ".*\.sh$"
+```
+```sh
+find . -name "*.sh"
+```
 - **Create prompt2.sh file with contents of prompt.sh file:**
 ```sh
 cat prompt.sh >> prompt2.sh
