@@ -1,5 +1,9 @@
 ## Linux notes
 ### Commands notes
+- **Create prompt2.sh file with contents of prompt.sh file:**
+```sh
+cat prompt.sh >> prompt2.sh
+```
 - **Find where vscode is installed - which command:**
 ```sh
 which code
