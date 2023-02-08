@@ -105,9 +105,18 @@ cat /etc/group | grep sudo | cut -d ":" -f4
 
 ## Bash Scripting
 ### Control structures and examples:
+- **shebang - #!/usr/bin/bash**
+- **export MSG="Hello World" - create a variable with some data**
+- **echo $MSG - use variable in echo command**
+- **example of a simple helloworld.sh script:**
+```sh
+#!/usr/bin/bash
+export MSG="Hello World"
+echo $MSG
+```
 - **dot operator - evaluate commands in the current context**
 ```sh
-. text.sh
+. helloworld.sh
 ```
 - **If[cond];then-fi block - self-descriptive**
 - **If [-f path] - if file exists**
@@ -116,5 +125,12 @@ cat /etc/group | grep sudo | cut -d ":" -f4
 ```sh
 if [ -f ~/.bash_aliases ]; then 
     . ~/.bash_aliases
+fi
+```
+- **Example: if a file exists, call it:**
+```sh
+#!/usr/bin/bash
+if [ -f helloworld.sh ]; then
+. helloworld.sh
 fi
 ```
