@@ -1,5 +1,9 @@
 ## Linux notes
 ### Commands notes
+- **set alias cls for clear command (~/.bash_aliases file):**
+```sh
+alias cls="clear"
+```
 - **List all files with .sh extension in current directory:**
 ```sh
 ls | grep -E ".*\.sh$"
