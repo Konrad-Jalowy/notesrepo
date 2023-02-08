@@ -161,3 +161,44 @@ echo "hello world!"
 } 
 say_hello
 ```
+- **Example: using functions and other previous knowledge to check for bash_aliases and create if necessary:**
+```sh
+create_file(){
+touch ~/.bash_aliases
+echo "File created"
+main
+}
+
+ask_pswd() { 
+echo "Give secret password!"
+read -s pswd
+if [ $pswd == "pswd" ]; then
+	create_file
+else
+	echo "wrong password!"
+fi
+}
+
+ask(){
+echo "File not found. Would you like to create?"
+read -p "Y/N" choice
+case $choice in
+[yY])
+ask_pswd;;
+[nN])
+echo "File not created. Bye!";;
+*)
+echo "Command not found. Bye!";;
+esac
+}
+
+main() { 
+if [ ! -f ~/.bash_aliases ]; then
+	ask
+else
+	echo "File present!"
+fi
+}
+
+main
+```
