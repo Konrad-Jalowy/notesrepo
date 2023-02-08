@@ -143,3 +143,6 @@ else
 	echo "Bash aliases ok!"
 fi
 ```
+- **read -p "Prompt msg" variable -read prompt from user and save it**
+- **read -s variable [no message with -s! you must echo it yourself] - read secure for passwords**
+- **case $variable in [yY]* ) commands;; esac - switch for bash**
