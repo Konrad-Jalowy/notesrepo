@@ -268,6 +268,16 @@ public static void main(String[] args) {
     }
 ```
 - **Arrays.fill:**
+```java
+public static void main(String[] args) {
+        int[] myArray = new int[10];
+        System.out.println(Arrays.toString(myArray));
+        //[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        Arrays.fill(myArray, 1);
+        System.out.println(Arrays.toString(myArray));
+        //[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    }
+```
 
 #### Basic String tasks
 - **println (sout) prints String + newline**
