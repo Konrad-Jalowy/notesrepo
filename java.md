@@ -237,6 +237,25 @@ public static void main(String[] args) {
 
     }
 ```
+### Arrays:
+- **Declare, initialize and print the array:**
+```java
+public static void main(String[] args) {
+        int[] myArray = new int[]{1,2,3,4,5,6,7,8,9,10};
+        System.out.println(Arrays.toString(myArray));
+    }
+```
+#### java.util.Arrays:
+- **Arrays.sort (in-place):**
+```java
+public static void main(String[] args) {
+        int[] myArray = new int[]{3,2,1,4,6,5,8,10,7,9};
+        System.out.println(Arrays.toString(myArray));
+        Arrays.sort(myArray);
+        System.out.println(Arrays.toString(myArray));
+    }
+```
+
 #### Basic String tasks
 - **println (sout) prints String + newline**
 - **empty println (sout) prints newline**

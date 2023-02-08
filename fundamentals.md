@@ -217,3 +217,5 @@
 
 - **Charging port - USB port for charging. If desktop is turned off, its still charging.**
 - **USBs are backward-compatible**
+- **USB A connector - downstream connection**
+- **USB B connector - upstream connection**
