@@ -13,3 +13,7 @@ let y;
 console.log(x == y); //true if '=='
 console.log( x === y); //false..
 ```
+- **stupid JS behavior with typeof null:**
+```js
+console.log(typeof null); //object
+```
