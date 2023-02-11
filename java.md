@@ -31,8 +31,13 @@ public class Main {
 ```
 - **Import everything from the package:**
 ```java
-import java.util.*
+import java.util.*;
 ```
+- **Import static:**
+```java
+import static java.util.*;
+```
+- **Import static definition: Static import is a feature introduced in the Java programming language that allows members (fields and methods) which have been scoped within their container class as public static , to be used in Java code without specifying the class in which the field has been defined.**
 #### Commands:
 - **Compile Main.java:**
 ```sh
