@@ -257,6 +257,23 @@ public static void main(String[] args) {
 ```java
 System.out.println(Arrays.toString($END$));
 ```
+- **Arrays as parameters: find minimum element example:**
+```java
+private static int findMin(int[] array) {
+
+        int min = Integer.MAX_VALUE;
+
+        for(int i=0; i<array.length; i++) {
+            int value = array[i];
+
+            if(value < min) {
+                min = value;
+            }
+        }
+
+        return min;
+    }
+```
 #### java.util.Arrays:
 - **Arrays.sort (in-place):**
 ```java
