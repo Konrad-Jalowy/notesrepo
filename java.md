@@ -274,6 +274,15 @@ private static int findMin(int[] array) {
         return min;
     }
 ```
+- **Arrays as return type and runtime-known size of array:**
+```java
+private static int[] readIntegers(int count) {
+
+        int[] array = new int[count];
+        //SOME CODE HERE
+        return array;
+}
+```
 #### java.util.Arrays:
 - **Arrays.sort (in-place):**
 ```java
