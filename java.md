@@ -29,6 +29,18 @@ public class Main {
     }
 }
 ```
+- **Integer class:**
+```java
+public static void main(String[] args) {
+        System.out.println(Integer.toHexString(123)); //7b
+        System.out.println(Integer.toOctalString(123)); //173
+        System.out.println(Integer.toBinaryString(123)); //1111011
+        System.out.println(Integer.parseInt("123")); //123
+        System.out.println(Integer.min(123,124)); //123
+        System.out.println(Integer.max(123,124)); //124
+        System.out.println(Integer.sum(123, 124)); //247
+    }
+```
 - **Import everything from the package:**
 ```java
 import java.util.*;
