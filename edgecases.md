@@ -272,3 +272,50 @@ match num:
 - **There is no fallthrough in cases for Python**
 - **In go, break is default but there is fallthrough keyword so you can specify it**
 - **In JS, just like many languages, you must break out of the case because it will fallthrough by default**
+
+### Case 13
+- **Will this code compile/run? Why/why not?**
+```java
+public class Main {
+
+    public static void main(String[] args) {
+        for (int i = 1 ; i < 6; i++) {
+            show(switch(i) {
+                case 1 -> i + 1;
+                case 2 -> i * 2;
+                case 3 -> i + 10;
+                case 4 -> i + i * i;
+                case 5 -> i * 8;
+                default -> i;
+            });
+        }
+        public static void show(int x) {
+            System.out.println(x);
+        }
+    }
+}
+```
+- **Short answer: NO. Not because of switch**
+- **Swich as a parameter is absolutely fine and ok. The problem is method nested within a method.**
+- **Correct version that will run below. Switch used like this is fine**
+```java
+public class Main {
+
+    public static void main(String[] args) {
+        for (int i = 1 ; i < 6; i++) {
+            show(switch(i) {
+                case 1 -> i + 1;
+                case 2 -> i * 2;
+                case 3 -> i + 10;
+                case 4 -> i + i * i;
+                case 5 -> i * 8;
+                default -> i;
+            });
+        }
+
+    }
+    public static void show(int x) {
+        System.out.println(x);
+    }
+}
+```
