@@ -319,3 +319,34 @@ public class Main {
     }
 }
 ```
+### Case 14
+- **Will those code produce output that the programmer intended? Will those two codes run any different?**
+```js
+var array = [1, 2, 3, 4, 5]
+for(var i = 0; i < array.length; i++) {
+  setTimeout(() => {
+    console.log(array[i])
+  }, 1000);
+}
+```
+```js
+let array = [1, 2, 3, 4, 5]
+for(var i = 0; i < array.length; i++) {
+  setTimeout(() => {
+    console.log(array[i])
+  }, 1000);
+}
+```
+- **Short answer 1 and 2: NO, NO**
+- **If programmer intended to iterate over array, he/she will be sadly disappointed. They will get 5 (last value), 5 times**
+- **Using let or var to declare array doesnt make any difference nor does it solve the problem. But its good to avoid var under any circumstances**
+- **The problem here is using var inside the loop. Thats something that should be changed. Changing var i to let i solves the problem**
+- **Version that is correct. Used var for array to emphasize where actually problem is, although using var is EVIL**
+```js
+var array = [1, 2, 3, 4, 5]
+for(let i = 0; i < array.length; i++) {
+  setTimeout(() => {
+    console.log(array[i])
+  }, 1000);
+}
+```
