@@ -1,5 +1,16 @@
 ## Java Notes
 ### Basic Stuff:
+#### Hello World - my way:
+```java
+public class Main {
+
+    public static void main(String[] args) {
+        do {
+            System.out.println("Hello world!");
+        } while (false);
+    }
+}
+```
 #### IntelliJ shortcuts
 - **CTRL + ALT + S - settings**
 #### Live Templates (you can create your own):
