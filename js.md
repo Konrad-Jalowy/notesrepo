@@ -39,6 +39,16 @@ function sth(somePara) {
     }
 }
 ```
+- **rest parameter use example:**
+```js
+function sumAll(...nums){
+    let cnt = 0;
+    nums.forEach((num) => {
+        cnt += num;
+    });
+    return cnt;
+}
+```
 ## Async:
 ### Fetch API:
 - **Fetch API simple example:**
