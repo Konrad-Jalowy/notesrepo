@@ -513,5 +513,5 @@ public class Main {
     }
 }
 ```
-- **Java will not compile**
+- **Java will not compile/run**
 - **In PHP and C, first Hello World gets printed, then 11 (length of the string returned by printf function)**
