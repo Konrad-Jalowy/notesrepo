@@ -492,7 +492,7 @@ for num in range(1,10+1):
     print(num)
 ```
 ### Case 20:
-- **Which of those codes will not compile and which will, and if any, what would be output?**
+- **Which of those codes will not compile/run and which will, and if any, what would be output?**
 ```php
 <?php
 printf("%d", printf("Hello World"));
@@ -513,5 +513,5 @@ public class Main {
     }
 }
 ```
-- **Java will not compile/run**
+- **Java will not compile**
 - **In PHP and C, first Hello World gets printed, then 11 (length of the string returned by printf function)**
