@@ -119,3 +119,33 @@ int main()
 }
 ```
 - **Short answer: YES, as long as you included all libraries needed at the top, like stdio.h**
+### Case 7:
+- **Do I need a semicolon here or something?**
+```vb
+Public Module Program
+	Public Sub Main(args() As string)
+		Console.WriteLine("Hello, World!")
+	End Sub
+End Module
+```
+- **Short answer: NO**
+### Case 8:
+- **Is this an example of bitwise operator, logical operator, non-existing operator or some other operator?**
+```vb
+Public Module Program
+	Public Sub Main(args() As string)
+		Console.WriteLine("Hello " & "World!")
+	End Sub
+End Module
+```
+- **Short answer: concatenation operator. Like dot in PHP, Fortran etc or plus sign in many programming languages**
+
+### Case 9:
+- **Will the output of those 2 operations be the same?**
+```js
+parseInt("16px");
+Number("16px");
+```
+- **Short answer: NO**
+- **parseInt will get the job done and return 16 from this string**
+- **Number will fail returning NaN (Not a Number)**
