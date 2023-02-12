@@ -454,3 +454,30 @@ Number.prototype.chr = function() {
 }
 console.log((65).chr());
 ```
+### Case 19:
+- **Are those codes the same? Is there any odd one? If so, which one?**
+```php
+foreach( Range(1,10) as $num){
+    echo "$num\n";
+}
+```
+```java
+public class Main {
+    public static void main(String[] args) {
+        int[] array = new int[]{21,22,23,24,25,26,27,28,29,30};
+        for ( int num: array) {
+            System.out.println(num-20);
+        }
+    }
+}
+```py
+for num in range(1,10):
+    print(num)
+```
+- **Both Java nad PHP will produce output with numbers from 1 to 10 here**
+- **In python mismatched tab and space indentation - EZ to spot.**
+- **Just kidding. In Python, youll get numbers from 1 to 9. Heres numbers from 1 to 10 in Python:**
+```py
+for num in range(1,10+1):
+    print(num)
+```
