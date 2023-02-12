@@ -149,3 +149,19 @@ Number("16px");
 - **Short answer: NO**
 - **parseInt will get the job done and return 16 from this string**
 - **Number will fail returning NaN (Not a Number)**
+
+### Case 10
+- **Is this code ok? If theres a problem, whats the problem here?**
+```vb
+Public Module Program
+	Public Sub Main(args() As string)
+	  Dim array1 As Integer() = New Integer() {1, 2, 3, 4, 5}
+	  array1(0) = 6
+		Console.WriteLine(array1[0])
+	End Sub
+End Module
+```
+- **Short answer: NO!**
+- **Problem is array1[0] - square brackets**
+- **To access array elements by index you use () instead of [] in VB**
+- **Using array(idx) you can get or set array values**
