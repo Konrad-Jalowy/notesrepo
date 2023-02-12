@@ -402,3 +402,14 @@ public class Main {
 ```
 - **Short answer 1: suprisingly YES. Although editor might issue a warning**
 - **Will it run: Since do-while checks the condition AFTER executing do block and since it compiles, YES, it will run, output hello world, check the always-false condition and then, since condition is false, it will break out of the loop. EZ**
+
+### Case 17:
+- **Is this code correct? What does it do?**
+```py
+for x in [chr(i) for i in range(ord('a'),ord('z')+1)]: print(x)
+```
+- **Short answer: Correct. Prints letters from a to z**
+- **Its a combination of some features such as:**
+	- **for loop one liner (print)**
+	- **list comprehension**
+	- **range object and chr and ord functions since Python does not have a letter-range, unlike those unpopular and shitty langs such as PHP, meh!**
