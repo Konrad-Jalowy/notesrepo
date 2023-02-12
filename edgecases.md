@@ -95,3 +95,13 @@ function capitalize($str) {
 echo capitalize($username);
 //Username
 ```
+### Case 5:
+- **Will it compile and run?**
+```php
+for(;;){
+	echo "Hello World";
+	break;
+}
+```
+- **Short answer 1: NO, because PHP is interpreted language :)!**
+- **Short answer 2: YES, this code is absolutely fine!**
