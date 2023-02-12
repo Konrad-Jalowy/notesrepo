@@ -491,3 +491,27 @@ for num in range(1,10):
 for num in range(1,10+1):
     print(num)
 ```
+### Case 20:
+- **Which of those codes will not compile and which will, and if any, what would be output?**
+```php
+<?php
+printf("%d", printf("Hello World"));
+```
+```c
+#include <stdio.h>
+
+int main()
+{
+    printf("%d", printf("Hello World"));
+
+}
+```
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.printf("%d", System.out.printf("Hello World"));
+    }
+}
+```
+- **Java will not compile**
+- **In PHP and C, first Hello World gets printed, then 11 (length of the string returned by printf function)**
