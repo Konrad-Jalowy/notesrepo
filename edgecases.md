@@ -319,7 +319,7 @@ public class Main {
     }
 }
 ```
-### Case 14
+### Case 14:
 - **Will those code produce output that the programmer intended? Will those two codes run any different?**
 ```js
 var array = [1, 2, 3, 4, 5]
@@ -349,4 +349,41 @@ for(let i = 0; i < array.length; i++) {
     console.log(array[i])
   }, 1000);
 }
+```
+### Case 15:
+- **Will those functions "run"? Are they the same in output? Can such a function, without any parameters (empty brackets) take parameters?**
+```js
+function sum1(){
+    let cnt = 0;
+    arguments.forEach((arg) => {
+        cnt+=arg;
+    });
+    return cnt;
+}
+
+function sum2(...args){
+    let cnt = 0;
+    args.forEach((arg) => {
+        cnt +=arg;
+    });
+    return cnt;
+}
+console.log(sum1(1,2,3));
+console.log(sum2(1,2,3));
+```
+- **Short: Function 1 is wrong, but empty brackets have nothing to do with it**
+- **arguments is array-like object and should be converted to array using Array.from before using forEach, which is array method**
+- **You can have variadic number of arguments in function without rest operator, with empty brackets, but you must convert arguments object, present in standard functions (not in arrow ones), if you want to use array methods on it**
+- **Example of correct code:**
+```js
+function sum3() {
+    cnt = 0;
+    args = Array.from(arguments);
+    args.forEach((arg) => {
+        cnt += arg;
+    });
+    return cnt;
+}
+
+console.log(sum3(1,2,3));
 ```
