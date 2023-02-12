@@ -470,6 +470,7 @@ public class Main {
         }
     }
 }
+```
 ```py
 for num in range(1,10):
     print(num)
