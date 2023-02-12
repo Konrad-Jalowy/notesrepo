@@ -406,10 +406,11 @@ public class Main {
 ### Case 17:
 - **Is this code correct? What does it do?**
 ```py
-for x in [chr(i) for i in range(ord('a'),ord('z')+1)]: (lambda y: print(y))(x)
+for x in [chr(i) for i in range(ord('a'),ord('z')+1)]: False or (1+1==2) and (lambda y: print(y))(x)
 ```
 - **Short answer: Correct. Prints letters from a to z**
 - **Super confusing and obfuscating! Its a combination of some features such as:**
+    - **short-circuting with both or and and... Hard to explain, easy to wrap your head around after some practice**
 	- **completely unnecessary lambda that can be replaced with print(x)**
 	- **for loop one liner (print)**
 	- **list comprehension**
@@ -427,6 +428,14 @@ for x in [chr(i) for i in range(ord('a'),ord('z')+1)]: (lambda y: print(y))(x)
 	```py
 	for num in range(1,9+1): print(num)
 	```
+    - **short-circuting - or:**
+    ```py
+    (1>2) or print("Hello world!")
+    ```
+    - **short-circuting - and:**
+    ```py
+    (1<2) and print("Hello world!")
+    ```
 	- **List comprehension - you can google it!**
 	- **chr and ord just like in any programming language**
 	- **another look at the code and it reads like English!**
