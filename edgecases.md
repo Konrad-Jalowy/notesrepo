@@ -406,10 +406,11 @@ public class Main {
 ### Case 17:
 - **Is this code correct? What does it do?**
 ```py
-for x in [chr(i) for i in range(ord('a'),ord('z')+1)]: print(x)
+for x in [chr(i) for i in range(ord('a'),ord('z')+1)]: (lambda y: print(y))(x)
 ```
 - **Short answer: Correct. Prints letters from a to z**
-- **Its a combination of some features such as:**
+- **Super confusing and obfuscating! Its a combination of some features such as:**
+	- **completely unnecessary lambda that can be replaced with print(x)**
 	- **for loop one liner (print)**
 	- **list comprehension**
 	- **range object and chr and ord functions since Python does not have a letter-range, unlike those unpopular and shitty langs such as PHP, meh!**
