@@ -218,3 +218,57 @@ int main()
     return 0;
 }
 ```
+### Case 12
+- **Ignoring some syntax differences and handling input/output, is there any logic difference between the codes listed below?**
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var i int
+	fmt.Print("Type a number: ")
+	fmt.Scan(&i)
+	switch i {
+	case 1:
+		fmt.Print("One")
+	case 2:
+		fmt.Print("Two")
+	case 3:
+		fmt.Print("Three")
+	default:
+		fmt.Print("Unknown")
+	}
+}
+```
+```js
+let num = parseInt(prompt("Enter a number"));
+switch (num){
+    case 1:
+        console.log("One");
+    case 2:
+        console.log("Two");
+    case 3:
+        console.log("Three");
+    default:
+        console.log("Unknown");
+}
+```
+```py
+num = int(input("Enter a number: "))
+match num:
+    case 1:
+        print("One")
+    case 2:
+        print("Two")
+    case 3:
+        print("Three")
+    case other:
+        print("Unknown")
+```
+- **Short answer: YES**
+- **In go and python, unlike most languages (like JS), break is default after hitting a matching case.**
+- **There is no fallthrough in cases for Python**
+- **In go, break is default but there is fallthrough keyword so you can specify it**
+- **In JS, just like many languages, you must break out of the case because it will fallthrough by default**
