@@ -105,3 +105,17 @@ for(;;){
 ```
 - **Short answer 1: NO, because PHP is interpreted language :)!**
 - **Short answer 2: YES, this code is absolutely fine!**
+
+### Case 6:
+- **Will it compile?**
+```c
+int main()
+{
+    for(;;){
+    printf("Hello, World!\n");
+    break;
+        }
+    return 0;
+}
+```
+- **Short answer: YES, as long as you included all libraries needed at the top, like stdio.h**
