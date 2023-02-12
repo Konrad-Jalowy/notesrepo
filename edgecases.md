@@ -387,3 +387,18 @@ function sum3() {
 
 console.log(sum3(1,2,3));
 ```
+### Case 16:
+- **Will it even compile? Will it run at least once?**
+```java
+public class Main {
+
+    public static void main(String[] args) {
+        do {
+            System.out.println("Hello world!");
+        } while (false);
+    }
+}
+
+```
+- **Short answer 1: suprisingly YES. Although editor might issue a warning**
+- **Will it run: Since do-while checks the condition AFTER executing do block and since it compiles, YES, it will run, output hello world, check the always-false condition and then, since condition is false, it will break out of the loop. EZ**
