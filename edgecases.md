@@ -430,3 +430,27 @@ for x in [chr(i) for i in range(ord('a'),ord('z')+1)]: (lambda y: print(y))(x)
 	- **List comprehension - you can google it!**
 	- **chr and ord just like in any programming language**
 	- **another look at the code and it reads like English!**
+
+### Case 18:
+- **Take a look at example of Ruby code below**
+```rb
+puts 65.chr
+```
+- **Ruby has a neat and nice syntax and built-in utilities, functions, methods. Can I replicate and use it in JavaScript as below? If so, which way of calling this function is correct one?**
+```js
+Number.prototype.chr = function() {
+    return String.fromCharCode(this);
+}
+console.log(65.chr);
+console.log(65.chr());
+```
+- **Yes, you can add functions to prototypes like that**
+- **The function itself is ok**
+- **Neither of these two ways is a good one for calling such function on numeric type**
+- **Example of how to make it work (not nearly as neat as in Ruby, but stil...):**
+```js
+Number.prototype.chr = function() {
+    return String.fromCharCode(this);
+}
+console.log((65).chr());
+```
