@@ -24,7 +24,11 @@ console.log(typeof null); //object
     - **problems with loops combined with intervals**
     - **all other sorts of problems and misconceptions compared to let and const. do not use**
 
-- **ASI - Automatic Semicolon Intertion. Makes it possible to get away with skipping semicolon but semicolons SHOULD BE USED and SHOULD BE USED PROPERLY. Automatic semicolon insertion cannot destroy a code with proper semicolons but it can mess up a code without it. Simple example of something, that should return an object literal, but instead does "return ;" due to ASI because of lack of proper semicolons:**
+- **ASI:** 
+    - **Automatic Semicolon Intertion.** 
+    - **Makes it possible to get away with skipping semicolon but semicolons SHOULD BE USED and SHOULD BE USED PROPERLY.** 
+    - **Automatic semicolon insertion cannot destroy a code with proper semicolons but it can mess up a code without it.** 
+    - **Simple example of something, that should return an object literal, but instead does "return ;" due to ASI because of lack of proper semicolons:**
 ```js
 function sth(somePara) {
     //DO STH
