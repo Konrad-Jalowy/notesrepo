@@ -165,3 +165,56 @@ End Module
 - **Problem is array1[0] - square brackets**
 - **To access array elements by index you use () instead of [] in VB**
 - **Using array(idx) you can get or set array values**
+### Case 11
+- **Which of the following codes (if any) is any different in output from others and what is the difference/problem if any?**
+```rb
+puts 65.chr
+```
+```c
+#include <stdio.h>
+
+int main()
+{
+    printf("%c", 65);
+
+}
+```
+```py
+print(chr(65))
+```
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<< chr(65);
+
+    return 0;
+}
+```
+```php
+echo chr(65);
+```
+```vb
+Public Module Program
+	Public Sub Main(args() As string)
+		Console.WriteLine(chrw(65))
+	End Sub
+End Module
+```
+- **Short answer: CPP CODE**
+- **Instead of chr() you should use char()! Example of good code that compiles and provides correct output:**
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<< char(65);
+
+    return 0;
+}
+```
