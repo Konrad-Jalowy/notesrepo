@@ -414,3 +414,19 @@ for x in [chr(i) for i in range(ord('a'),ord('z')+1)]: (lambda y: print(y))(x)
 	- **for loop one liner (print)**
 	- **list comprehension**
 	- **range object and chr and ord functions since Python does not have a letter-range, unlike those unpopular and shitty langs such as PHP, meh!**
+- **Deobfuscation:**
+	- **Hello world in lambda:**
+	```py
+	(lambda x,y : print(x + " " + y))("Hello", "world!")
+	```
+	- **For-loop one liner:**
+	```py
+	for num in [1,2,3]: print(num)
+	```
+	- **Range from 1 to 9:**
+	```py
+	for num in range(1,9+1): print(num)
+	```
+	- **List comprehension - you can google it!**
+	- **chr and ord just like in any programming language**
+	- **another look at the code and it reads like English!**
