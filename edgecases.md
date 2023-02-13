@@ -584,3 +584,65 @@ false or (function(){ echo "Hello World";})();
 - **using lambdas as IIFE in python fine, just as if __name__ == '__main__' block, this code will run, its just a safeguard from running while imported**
 - **using brackets in JS for creating scope makes those variables invisible outside the scope but the main point is will hello world run - yes it will. I wonder why people use IIFEs over blocks TBH**
 - **do-while(false) will work as IIFE in Java. There are, people say, less hacky ways to create IIFE in Java, but who cares, do-while(false) gets the job done and looks somewhat neat while being Java code**
+### Case 22:
+- **Youre give this html boilerplate**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1 id="header1">Im a header</h1>
+    <script src="./header.js" defer></script>
+</body>
+</html>
+```
+- **Here are codes in JS, jQuery, and TS (to be compiled to js). Will they do:**
+    - **getting h1**
+    - **adding event listener that changes bg color to orange**
+    - **removing this listener after first click**
+```ts
+let h1 = document.getElementById("header1") as HTMLElement;
+
+h1.addEventListener('click', handleClick2);
+
+function handleClick2(this: HTMLElement) {
+    this.style.backgroundColor = 'orange';
+    this.removeEventListener('click', handleClick2);
+}
+```
+```js
+let h1 = document.querySelector("#header1");
+h1.addEventListener("click", function(){
+    this.style.backgroundColor = 'orange';
+    this.removeEventListener("click", this);
+});
+```
+```js
+$("#header1").on("click", function(){
+    this.style.backgroundColor = 'orange';
+    this.off("click", this);
+});
+```
+- **Short answer: TS and JS codes ok, jQuery wrong**
+- **suprisingly, using this pointer in jQuery-grabbed object WILL work. Removing event listener without $(this) will not work**
+- **Example of semi-good jQuery solution:**
+```js
+$("#header1").on("click", function(){
+    this.style.backgroundColor = 'orange';
+    $(this).off("click", this);
+});
+```
+- **Still, using $(this) in first line would make native style object not accessible. jQuery way of doing the task would be:**
+```js
+$("#header1").on("click", function(){
+    $(this).css('background-color', 'orange');
+    $(this).off("click", this);
+});
+```
+- **While using jQuery or reading jQuery codes, you need to remember youre dealing with the DOM-wrapper. Just like react and controlled/uncontrolled events. Its not native JS. $(this) is some of the jQuery weirdness. That said, jQuery is becoming obsolete nowadays. But from technical point of view, its a piece of great code and writing such DOM wrapper or analyzing it or using it locally for some exercises makes whole lot of sense**
