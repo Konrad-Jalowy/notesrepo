@@ -529,6 +529,11 @@ call_user_func(function() { echo "Hello world"; });
 ```php
 false || echo "Hello ". "World";
 ```
+```js
+(function(str1, str2){
+    console.log(`${str1} ${str2}`);
+})("Hello", "World");
+```
 ```py
 (lambda msg : print(msg))("Hello World")
 ```
@@ -554,6 +559,11 @@ false or print("Hello ". "World");
 ```
 ```py
 true && print("hello world")
+```
+```js
+(function(str1){
+    console.log(`${str1} ${this.str2}`);
+}).call({str2: "World"}, "Hello");
 ```
 ```php
 false || print("Hello ". "World");
@@ -584,6 +594,18 @@ false or (function(){ echo "Hello World";})();
 - **using lambdas as IIFE in python fine, just as if __name__ == '__main__' block, this code will run, its just a safeguard from running while imported**
 - **using brackets in JS for creating scope makes those variables invisible outside the scope but the main point is will hello world run - yes it will. I wonder why people use IIFEs over blocks TBH**
 - **do-while(false) will work as IIFE in Java. There are, people say, less hacky ways to create IIFE in Java, but who cares, do-while(false) gets the job done and looks somewhat neat while being Java code**
+- **IIFE can take arguments. Why not, for fun:**
+```js
+(function(str1, str2){
+    console.log(`${str1} ${str2}`);
+})("Hello", "World");
+```
+- **For even more fun, you can use call on IIFE. You can even bind it to object literal:**
+```js
+(function(str1){
+    console.log(`${str1} ${this.str2}`);
+}).call({str2: "World"}, "Hello");
+```
 ### Case 22:
 - **Youre give this html boilerplate**
 ```html
