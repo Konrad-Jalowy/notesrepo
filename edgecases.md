@@ -556,5 +556,5 @@ True and print("hello world")
 ```
 - **call_user_func is older PHP IIFE. There is newer syntax, more JS-like**
 - **short circuting in js, absolutely fine**
-- **using lambdas as IIFE in python fine, just as if __name__ == '__main__' block, this code will run**
+- **using lambdas as IIFE in python fine, just as if __name__ == '__main__' block, this code will run, its just a safeguard from running while imported**
 - **using brackets for creating scope makes those variables invisible outside the scope but the main point is will hello world run - yes it will. I wonder why people use IIFEs over blocks TBH**
