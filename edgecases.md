@@ -753,3 +753,51 @@ while True:
 - **importlib has reload function for reloading imported modules**
 - **sys.modules can be used to check if a module was imported**
 - **PHP, that has long history of injecting code via imports, has require, require_once, include, and include_once functions so that you know more or less what to expect without reading documentation and stackoverflow. But hey, this is python, which "reads like English"**
+
+### Case 24:
+- **Currying is popular topic in JS, for some reasons its often mentioned but its usefullness can be questionable in my opinion. Regardless, are all these codes below (including TS) correct, free of errors, good examples of currying?**
+```js
+const sum = function(a){
+    return function(b){
+        return a+b;
+    }
+}
+console.log(sum(1)(2));
+```
+```js
+const currier = {
+    sum: function(a){
+        return function(b){
+            return a + b;
+        }
+    }
+}
+console.log(currier.sum(1)(2));
+```
+```js
+class Currier {
+    sum(a) {
+        return function(b){
+            return a + b;
+        }
+    }
+}
+
+const clsCurrier = new Currier();
+console.log(clsCurrier.sum(1)(2));
+```
+```ts
+class Currier {
+    sum(a: number) : Function {
+        return function(b: number) : number{
+            return a + b;
+        }
+    }
+}
+
+let currier = new Currier();
+let output = currier.sum(1)(2);
+console.log(output);
+```
+- **Answer: YES. They are all correct**
+- **There is a difference between function/method returning a function and a method within a method**
