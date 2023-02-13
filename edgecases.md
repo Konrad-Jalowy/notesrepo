@@ -515,3 +515,46 @@ public class Main {
 ```
 - **Java will not compile**
 - **In PHP and C, first Hello World gets printed, then 11 (length of the string returned by printf function)**
+
+### Case 21:
+- **Are all codes below an example of code that will be executed in a script/program immediately, without needing to be called in any way, going with normal program flow and is it correct/has no errors? If any, can you name all these errors?**
+```php
+call_user_func(function() { echo "Hello world"; });
+```
+```js
+(function(){
+    console.log("Hello World");
+})();
+```
+```py
+(lambda msg : print(msg))("Hello World")
+```
+```php
+(function() { echo "Hello World"; })();
+```
+```js
+true && console.log("Hello World");
+```
+```py
+if __name__ == '__main__':
+    print("Hello World")
+```
+```js
+{ 
+    let a = 45;
+    let b = "yolo";
+    console.log("hi"); 
+}
+```
+```py
+true && print("hello world")
+```
+- **Short answer: python short circuting is wrong.**
+- **In Python short circuting (last example) true is some unknown variable (True is what Python uses for truth) plus && is invalid operator, Python uses and keyword. Example below would work:**
+```py
+True and print("hello world")
+```
+- **call_user_func is older PHP IIFE. There is newer syntax, more JS-like**
+- **short circuting in js, absolutely fine**
+- **using lambdas as IIFE in python fine, just as if __name__ == '__main__' block, this code will run**
+- **using brackets for creating scope makes those variables invisible outside the scope but the main point is will hello world run - yes it will. I wonder why people use IIFEs over blocks TBH**
