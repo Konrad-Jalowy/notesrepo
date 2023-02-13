@@ -746,3 +746,9 @@ while True:
     else:
         print("Unknown command.")
 ```
+- **You cannot treat import statement as something that only import variables.**
+- **You cannot treat import statement as equivalent of dot operator in shell scripts, something to run script from other file**
+- **Import both run the code in a file (if not safeguarded) and imports variables**
+- **Import runs ONCE, once imported, it will ignore another import statement. Unless reloaded**
+- **importlib has reload function for reloading imported modules**
+- **sys.modules can be used to check if a module was imported**
