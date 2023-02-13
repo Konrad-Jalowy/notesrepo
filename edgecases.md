@@ -549,6 +549,15 @@ if __name__ == '__main__':
 ```py
 true && print("hello world")
 ```
+```java
+public class Main {
+    public static void main(String[] args) {
+        do {
+            System.out.println("Hello World");
+        } while(false);
+    }
+}
+```
 - **Short answer: python short circuting is wrong.**
 - **In Python short circuting (last example) true is some unknown variable (True is what Python uses for truth) plus && is invalid operator, Python uses and keyword. Example below would work:**
 ```py
@@ -557,4 +566,5 @@ True and print("hello world")
 - **call_user_func is older PHP IIFE. There is newer syntax, more JS-like**
 - **short circuting in js, absolutely fine**
 - **using lambdas as IIFE in python fine, just as if __name__ == '__main__' block, this code will run, its just a safeguard from running while imported**
-- **using brackets for creating scope makes those variables invisible outside the scope but the main point is will hello world run - yes it will. I wonder why people use IIFEs over blocks TBH**
+- **using brackets in JS for creating scope makes those variables invisible outside the scope but the main point is will hello world run - yes it will. I wonder why people use IIFEs over blocks TBH**
+- **do-while(false) will work as IIFE in Java. There are, people say, less hacky ways to create IIFE in Java, but who cares, do-while(false) gets the job done and looks somewhat neat while being Java code**
