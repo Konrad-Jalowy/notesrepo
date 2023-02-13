@@ -859,3 +859,61 @@ const test1 = new Test();
 test1.outer();
 ```
 - **Answer: yes. But function nested within a method must contain function keyword**
+
+### Case 26:
+- **Given these VB and Java scripts, determine which of these two strongly typed languages is a smarter one?**
+- **Or in other words, are these codes ok? Which one will work, if any?**
+```java
+public class Main {
+    public static void main(String[] args) {
+        String msg = "hi";
+        int number = 15;
+        dog = new Animal();
+    }
+}
+
+class Animal
+{
+
+}
+```
+```vb
+Public Module Program
+	Public Sub Main(args() As string)
+    Dim msg As String = "hi"
+    Dim num As Integer = 15
+	Dim dog = new Animal
+	End Sub
+End Module
+Class Animal
+  
+End Class
+```
+- **Short answer: VB is smarter**
+- **Repairing Java code (likes to hear twice what type of object instantiates using new keyword):**
+```java
+public class Main {
+    public static void main(String[] args) {
+        String msg = "hi";
+        int number = 15;
+        Animal dog = new Animal();
+    }
+}
+class Animal
+{
+
+}
+```
+- **Of course you can be that specific in VB too. You just dont have to, but can:**
+```vb
+Public Module Program
+	Public Sub Main(args() As string)
+    Dim msg As String = "hi"
+    Dim num As Integer = 15
+		Dim dog As Animal = new Animal
+	End Sub
+End Module
+Class Animal
+  
+End Class
+```
