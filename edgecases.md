@@ -880,9 +880,9 @@ class Animal
 ```vb
 Public Module Program
 	Public Sub Main(args() As string)
-    Dim msg As String = "hi"
-    Dim num As Integer = 15
-	Dim dog = new Animal
+        Dim msg As String = "hi"
+        Dim num As Integer = 15
+        Dim dog = new Animal
 	End Sub
 End Module
 Class Animal
@@ -908,8 +908,8 @@ class Animal
 ```vb
 Public Module Program
 	Public Sub Main(args() As string)
-    Dim msg As String = "hi"
-    Dim num As Integer = 15
+        Dim msg As String = "hi"
+        Dim num As Integer = 15
 		Dim dog As Animal = new Animal
 	End Sub
 End Module
