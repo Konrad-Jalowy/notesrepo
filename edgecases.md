@@ -526,6 +526,9 @@ call_user_func(function() { echo "Hello world"; });
     console.log("Hello World");
 })();
 ```
+```php
+false || echo "Hello ". "World";
+```
 ```py
 (lambda msg : print(msg))("Hello World")
 ```
@@ -539,6 +542,9 @@ true && console.log("Hello World");
 if __name__ == '__main__':
     print("Hello World")
 ```
+```php
+false or print("Hello ". "World");
+```
 ```js
 { 
     let a = 45;
@@ -549,6 +555,9 @@ if __name__ == '__main__':
 ```py
 true && print("hello world")
 ```
+```php
+false || print("Hello ". "World");
+```
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -558,10 +567,17 @@ public class Main {
     }
 }
 ```
-- **Short answer: python short circuting is wrong.**
+- **Short answer: python short circuiting is wrong and php short circuiting with echo also wrong.**
 - **In Python short circuting (last example) true is some unknown variable (True is what Python uses for truth) plus && is invalid operator, Python uses and keyword. Example below would work:**
 ```py
 True and print("hello world")
+```
+- **In PHP, short circuiting doesnt want to work with echo, function or keyword, doesnt matter, IDK why, in PHP when sth works the weird way you dont question it, just note that. Other things works normally, as you would expect. Using 'or' or '||' actually doesnt make any difference and 'false || doSth()' is a proper logic to execute doSth(). Codes that work:**
+```php
+false || print("Hello World");
+false or print("Hello World");
+false or call_user_func(function() { echo "Hello world"; });
+false or (function(){ echo "Hello World";})();
 ```
 - **call_user_func is older PHP IIFE. There is newer syntax, more JS-like**
 - **short circuting in js, absolutely fine**
