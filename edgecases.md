@@ -624,7 +624,7 @@ false or (function(){ echo "Hello World";})();
 </body>
 </html>
 ```
-- **Here are codes in JS, jQuery, and TS (to be compiled to js). Will they do:**
+- **Here are codes in JS, jQuery, and TS (twice) to be compiled to js. Will they do:**
     - **getting h1**
     - **adding event listener that changes bg color to orange**
     - **removing this listener after first click**
@@ -651,6 +651,16 @@ $("#header1").on("click", function(){
     this.off("click", this);
 });
 ```
+```ts
+let h1 = document.getElementById("header1");
+
+h1?.addEventListener('click', handleClick2);
+
+function handleClick2(this: HTMLElement) {
+    this.style.backgroundColor = 'orange';
+    this.removeEventListener('click', handleClick2);
+}
+```
 - **Short answer: TS and JS codes ok, jQuery wrong**
 - **suprisingly, using this pointer in jQuery-grabbed object WILL work. Removing event listener without $(this) will not work**
 - **Example of semi-good jQuery solution:**
@@ -668,3 +678,34 @@ $("#header1").on("click", function(){
 });
 ```
 - **While using jQuery or reading jQuery codes, you need to remember youre dealing with the DOM-wrapper. Just like react and controlled/uncontrolled events. Its not native JS. $(this) is some of the jQuery weirdness. That said, jQuery is becoming obsolete nowadays. But from technical point of view, its a piece of great code and writing such DOM wrapper or analyzing it or using it locally for some exercises makes whole lot of sense**
+- **In TS, you can use optional chaining ?. It means, TS doesnt know that it will get HTMLElement with addEventListener method, it might be null or undefined, you didnt specified this getElementById will return HTMLElement, TS has no guarantee it will get such element with such method, but optional chaining ?. says - if its such an element with such a method, do this and that, if not, do nothing, dont mind. Example one more time, but i really prefer to use as HTMLElement, but to be honest, you can use both, you can even be very specific what type of element you are gonna use, lets be super-safe as below:**
+```ts
+let h1 = document.getElementById("header1") as HTMLHeadingElement;
+
+h1?.addEventListener('click', handleClick2);
+
+function handleClick2(this: HTMLHeadingElement) {
+    this.style.backgroundColor = 'orange';
+    this.removeEventListener('click', handleClick2);
+}
+```
+- **Note: just be carefull being smartass, one day you might mistake HTMLHeadElement with HTMLHeadingElement. Without any 'monkey business', thats the code I would recommend:**
+```ts
+let h1 = document.getElementById("header1") as HTMLElement;
+
+h1?.addEventListener('click', handleClick2);
+
+function handleClick2(this: HTMLElement) {
+    this.style.backgroundColor = 'orange';
+    this.removeEventListener('click', handleClick2);
+}
+```
+- **And thats its js version provided by compiler (OMG var!!!):**
+```js
+var h1 = document.getElementById("header1");
+
+h1.addEventListener('click', function () {
+    this.style.backgroundColor = 'orange';
+    this.removeEventListener('click', this);
+});
+```
