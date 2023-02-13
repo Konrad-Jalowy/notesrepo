@@ -1,0 +1,1 @@
+(lambda msg : print(msg))("Hello World")
