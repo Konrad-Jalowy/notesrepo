@@ -32,3 +32,21 @@
 </form>
 @endcan
 ```
+- **forelse - foreach with code block to do when there is no records to display:**
+```php
+@forelse ($users as $user)
+    <li>{{ $user->name }}</li>
+@empty
+    <p>No users</p>
+@endforelse
+```
+- **foreach with continue and break in blade:**
+```php
+@foreach ($users as $user)
+    @continue($user->type == 1)
+ 
+    <li>{{ $user->name }}</li>
+ 
+    @break($user->number == 5)
+@endforeach
+```
