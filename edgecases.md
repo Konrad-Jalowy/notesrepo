@@ -801,3 +801,61 @@ console.log(output);
 ```
 - **Answer: YES. They are all correct**
 - **There is a difference between function/method returning a function and a method within a method**
+
+### Case 25:
+- **Outer/inner functions are also a popular topic. They can be useful. But are those below correct examples of outer/inner functions?**
+```js
+function outer(){
+    function inner(){
+        console.log("inner called");
+    }
+    console.log("outer");
+    inner();
+    console.log("outer");
+}
+
+outer();
+```
+```js
+const obj1 = {
+    outer: function(){
+        function inner(){
+            console.log("inner called");
+        }
+        console.log("outer");
+        inner();
+        console.log("outer");
+    }
+}
+obj1.outer();
+```
+```js
+class Test {
+    outer(){
+        function inner(){
+            console.log("inner called");
+        }
+        console.log("outer");
+        inner();
+        console.log("outer");
+    }
+}
+
+const test1 = new Test();
+test1.outer();
+```
+```ts
+class Test {
+    outer(): void {
+        function inner() : void {
+            console.log("inner");
+        }
+        console.log("outer");
+        inner();
+        console.log("outer");
+    }
+}
+const test1 = new Test();
+test1.outer();
+```
+- **Answer: yes. But function nested within a method must contain function keyword**
