@@ -752,3 +752,4 @@ while True:
 - **Import runs ONCE, once imported, it will ignore another import statement. Unless reloaded**
 - **importlib has reload function for reloading imported modules**
 - **sys.modules can be used to check if a module was imported**
+- **PHP, that has long history of injecting code via imports, has require, require_once, include, and include_once functions so that you know more or less what to expect without reading documentation and stackoverflow. But hey, this is python, which "reads like English"**
