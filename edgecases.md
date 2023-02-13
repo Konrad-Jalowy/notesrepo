@@ -709,3 +709,40 @@ h1.addEventListener('click', function () {
     this.removeEventListener('click', this);
 });
 ```
+### Case 23:
+- **Imagine you and your math-genius buddy are making GUI in Python for some computations. Youre new to coding and wrote the whole 3k long script in one main.py file. You created gui, interface, db connection and stuff, he came up with algorithm doing sth you dont understand. Since you dont want to feel like math noob you created calc.py in which you have script for nice calculator with some nice features. Since you feel this 3k long file might be a little to long and want to abstract away calculator feature, which is just additional feature to the application from everything else, you want to inject it using import keyword. Will it run? Is it a good idea, will it always show your calculator for the end user anytime he or she wants to make some additional maths?**
+- **For simplicity, you get pseudo-cli. main.py:**
+```py
+while True:
+    command = input("Enter command: ")
+    if command == "q":
+        break
+    if command == "calc":
+        import calc
+    else:
+        print("Unknown command.")
+```
+- **calc.py:**
+```py
+print("shows calculator")
+```
+- **Will it run? If so, is this hacky way of injecting code has any issues you should be worried about?**
+
+- **Answer: It will run ONCE**
+- **It is true, that import not only imports variables and stuff, but also executes code (if not safeguared by famous python if-name-sth...), but it executes code ONCE. So the end user will see, wow, calculator, nice feature, lets close it. Ok, i did sth, now i need this calculator. Sth is not working, its not showing up.**
+- **If you want to achieve such thing by using import, thats how you do it. Hacky way, but works. Good to know about such things no one teaches you about:**
+```py
+from importlib import reload
+import sys
+while True:
+    command = input("Enter command: ")
+    if command == "q":
+        break
+    if command == "calc":
+        if 'calc' not in sys.modules:
+            import calc
+        else:
+            reload(calc)
+    else:
+        print("Unknown command.")
+```
