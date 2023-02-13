@@ -568,7 +568,7 @@ public class Main {
 }
 ```
 - **Short answer: python short circuiting is wrong and php short circuiting with echo also wrong.**
-- **In Python short circuting (last example) true is some unknown variable (True is what Python uses for truth) plus && is invalid operator, Python uses and keyword. Example below would work:**
+- **In Python short circuting - true is some unknown variable (True is what Python uses for truth) plus && is invalid operator, Python uses and keyword. Example below would work:**
 ```py
 True and print("hello world")
 ```
