@@ -76,7 +76,29 @@ public function __invoke(Request $request)
     }
 ```
 # Second Laravel Notes:
-## Seeder Example
+- **Factory Example:**
+```php
+use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
+/**
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Task>
+ */
+class TaskFactory extends Factory
+{
+    /**
+     * Define the model's default state.
+     *
+     * @return array<string, mixed>
+     */
+    public function definition()
+    {
+        return [
+            'task' => Str::random(10),
+        ];
+    }
+}
+```
+- **Seeder Example**
 ```php
 namespace Database\Seeders;
 
@@ -111,4 +133,54 @@ php artisan db:seed --class=TaskSeeder
             $table->timestamps();
         });
     }
+```
+- **closure in web route as controller:**
+```php
+use Illuminate\Support\Facades\Route;
+use App\Models\Task;
+
+
+Route::get('/', function () {
+    $tasks = Task::all();
+    return view('welcome', compact('tasks'));
+});
+```
+
+- **forelse loop**
+```php
+<table class="table">
+    <thead>
+        <tr>
+        <th scope="col">Task Name</th>
+        <th scope="col">Done</th>
+        <th scope="col">Actions</th>
+        </tr>
+    </thead>
+  <tbody>
+    
+    @forelse ($tasks as $task )
+    <tr>
+      <td>{{$task->task}}</td>
+      @if($task->done ===0)
+      <td>No</td>
+      @else
+      <td>Yes</td>
+      @endif
+      <td>
+      <button class="btn btn-primary">Mark as done</button>
+      <button class="btn btn-warning">Edit</button>
+      <button class="btn btn-success">Delete</button>
+      </td>
+      </tr>
+    @empty
+    <tr>
+        <td>No tasks available</td>
+        <td>N/A</td>
+        <td>N/A</td>
+    </tr>
+    @endforelse
+      
+    
+  </tbody>
+</table>
 ```
