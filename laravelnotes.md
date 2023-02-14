@@ -75,3 +75,40 @@ public function __invoke(Request $request)
         return view('welcome', compact('categories'));
     }
 ```
+# Second Laravel Notes:
+## Seeder Example
+```php
+namespace Database\Seeders;
+
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+use App\Models\Task;
+class TaskSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        Task::factory()->count(10)->create();
+    }
+}
+```
+- **run seeder:**
+```sh
+php artisan db:seed --class=TaskSeeder
+```
+- **default value in migration:**
+```php
+ public function up()
+    {
+        Schema::create('tasks', function (Blueprint $table) {
+            $table->id();
+            $table->string('task');
+            $table->boolean('done')->default(0);
+            $table->timestamps();
+        });
+    }
+```
