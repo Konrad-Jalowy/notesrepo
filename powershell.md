@@ -11,3 +11,8 @@ Get-ChildItem
 ```powershell
 Install-Module -Name newtonsoft.json
 ```
+- **hello world:**
+```powershell
+$msg = "Hello World"
+Write-Host $msg
+```
