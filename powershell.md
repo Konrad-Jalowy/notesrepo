@@ -7,3 +7,7 @@ Get-Alias ls
 ```powershell
 Get-ChildItem
 ```
+- **insall module:**
+```powershell
+Install-Module -Name newtonsoft.json
+```
