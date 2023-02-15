@@ -923,7 +923,7 @@ End Class
 def mainloop():
     while True:
         command = input("What do you want me to explain? > ")
-        flag = match_command(command)
+        match_command(command)
 def match_command(command):
     match command.lower():
         case "q" | "quit":
