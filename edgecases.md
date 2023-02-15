@@ -917,3 +917,41 @@ Class Animal
   
 End Class
 ```
+### Case 27:
+- **Here is code from Python-created CLI. Question is: can you break out of the loop like that, from other function called within a loop?**
+```py
+def mainloop():
+    while True:
+        command = input("What do you want me to explain? > ")
+        flag = match_command(command)
+def match_command(command):
+    match command.lower():
+        case "q" | "quit":
+            break
+        case "all" | "a":
+            print_all()
+        case "help" | "h":
+            print_help()
+        case other:
+            get_description(command)
+```
+- **Answer: NO. You cant break out of the loop from other function. But you can use some kind of flag:**
+```py
+def mainloop(arg=None):
+    while True:
+        command = input("What do you want me to explain? > ")
+        flag = match_command(command)
+            if flag == -1:
+                print("Bye")
+                break
+def match_command(command):
+    match command.lower():
+        case "q" | "quit":
+            return -1
+        case "all" | "a":
+            print_all()
+        case "help" | "h":
+            print_help()
+        case other:
+            get_description(command)
+```
